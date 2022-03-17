@@ -5,7 +5,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 ### Boas Vindas
 
-- [ ] Bem-Vindo(a): Propósito e Motivação
+- [x] Bem-Vindo(a): Propósito e Motivação
 - [ ] Projeto Decoder - Overview Completo
 - [ ] Cronograma do Projeto Decoder
 - [ ] Avisos Importantes - Termos e Copyright
