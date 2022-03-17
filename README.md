@@ -16,7 +16,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 - [x] O Fim dos Monolíticos - Vantagens dos Microservices
 - [x] Fundamentos Microservices - Desafios e Equívocos
-- [ ] Microservices Patterns e Spring Projects
+- [x] Microservices Patterns e Spring Projects
 
 ### Planejamento Arquitetura de Microservices: Componentes e Comunicações
 
