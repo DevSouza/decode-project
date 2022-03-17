@@ -14,7 +14,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 ### Descodificando Microservices com Spring [Evento]
 
-- [ ] O Fim dos Monolíticos - Vantagens dos Microservices
+- [x] O Fim dos Monolíticos - Vantagens dos Microservices
 - [ ] Fundamentos Microservices - Desafios e Equívocos
 - [ ] Microservices Patterns e Spring Projects
 
