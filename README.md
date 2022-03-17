@@ -9,7 +9,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Projeto Decoder - Overview Completo
 - [x] Cronograma do Projeto Decoder
 - [x] Avisos Importantes - Termos e Copyright
-- [ ] Suporte e Comunidade Discord
+- [x] Suporte e Comunidade Discord
 - [ ] F.A.Q - Perguntas Frequentes
 
 ### Descodificando Microservices com Spring [Evento]
