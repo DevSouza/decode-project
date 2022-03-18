@@ -24,7 +24,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Definição dos Componentes e Comunicações
 - [x] Base de Dados Compartilhada e Base de Dados por Microservice
 - [x] Comunicação Microservice: Síncrona e Assíncrona
-- [ ] Assincronia por Mensageria ou Eventos
+- [x] Assincronia por Mensageria ou Eventos
 
 ### Ecossistema Spring Aplicados a Microservices
 
