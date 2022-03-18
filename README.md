@@ -29,7 +29,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### Ecossistema Spring Aplicados a Microservices
 
 - [x] Spring Framework e Spring Boot
-- [ ] Projetos Spring para Arquitetura de Microservices
+- [x] Projetos Spring para Arquitetura de Microservices
 
 ### Microservices com Spring: Primeiros Passos
 
