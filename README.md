@@ -23,7 +23,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Concepção da Arquitetura de Microservices
 - [x] Definição dos Componentes e Comunicações
 - [x] Base de Dados Compartilhada e Base de Dados por Microservice
-- [ ] Comunicação Microservice: Síncrona e Assíncrona
+- [x] Comunicação Microservice: Síncrona e Assíncrona
 - [ ] Assincronia por Mensageria ou Eventos
 
 ### Ecossistema Spring Aplicados a Microservices
