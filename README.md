@@ -1,6 +1,10 @@
 # decoder-project
 Formação de Especialistas em Microservices Java com Spring
 
+| Computer |    Host   | Port |   User   | Password |
+|----------|-----------|------|----------|----------|
+| House    | localhost | 5432 | postgres | 3301     |
+
 ## Aulas 
 
 ### Boas Vindas
@@ -39,7 +43,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] O Primeiro Microservice - AuthUser
 - [x] Arquitetura EAD - Criando Microservices Course e Notification
 - [x] Instalar Postman
-- [ ] Instalar PostgreSQL com Variável Ambiente e pgAdmin
+- [x] Instalar PostgreSQL com Variável Ambiente e pgAdmin
 - [ ] Instalar Git e Acessos aos Códigos Fontes dos Microservices (Versionados)
 - [ ] Acesso Código Fonte
 
