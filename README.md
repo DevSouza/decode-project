@@ -53,7 +53,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Overview da API RESTFul a ser Utilizada na Arquitetura
 - [x] Criar e Configurar Base de Dados PostgreSQL
 - [x] Mapeamentos com Spring Data JPA e Lombok
-- [ ] API REST com Spring Web
+- [x] API REST com Spring Web
 - [ ] Criar Método de Registro de Usuários com Verificações Iniciais
 - [ ] JsonView - Multiplas Visualizações em APIs
 - [ ] Validação com Spring Validation
