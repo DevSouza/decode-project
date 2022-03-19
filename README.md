@@ -50,7 +50,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### API RESTFul para Microservices: Do Básico ao Avançado
 
 - [x] API REST vs RESTful: Introdução e Conceitos
-- [ ] Overview da API RESTFul a ser Utilizada na Arquitetura
+- [x] Overview da API RESTFul a ser Utilizada na Arquitetura
 - [ ] Criar e Configurar Base de Dados PostgreSQL
 - [ ] Mapeamentos com Spring Data JPA e Lombok
 - [ ] API REST com Spring Web
