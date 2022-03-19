@@ -33,7 +33,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 ### Microservices com Spring: Primeiros Passos
 
-- [ ] Instalar JDK 11 e Configurar Variável JAVA_HOME
+- [x] Instalar JDK 11 e Configurar Variável JAVA_HOME
 - [ ] Instalar Maven e Configurar Variável MAVEN_HOME
 - [ ] Instalar Intelij IDEA - Licença Brinde de 6 Meses
 - [ ] O Primeiro Microservice - AuthUser
