@@ -37,7 +37,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Instalar Maven e Configurar Variável MAVEN_HOME
 - [x] Instalar Intelij IDEA - Licença Brinde de 6 Meses
 - [x] O Primeiro Microservice - AuthUser
-- [ ] Arquitetura EAD - Criando Microservices Course e Notification
+- [x] Arquitetura EAD - Criando Microservices Course e Notification
 - [ ] Instalar Postman
 - [ ] Instalar PostgreSQL com Variável Ambiente e pgAdmin
 - [ ] Instalar Git e Acessos aos Códigos Fontes dos Microservices (Versionados)
