@@ -1,1 +1,1 @@
-(Download Maven)[https://maven.apache.org/download.cgi]
+[Download Maven](https://maven.apache.org/download.cgi)

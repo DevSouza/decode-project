@@ -1,5 +1,5 @@
-(Download JDK 11 - Windows)[https://www.oracle.com/java/technologies/downloads/#java11-windows]
-(Download JDK 11 - Linux)[https://www.oracle.com/java/technologies/downloads/#java11-linux]
-(Download JDK 11 - Mac)[https://www.oracle.com/java/technologies/downloads/#java11-mac]
-(Guia de instalação JDK 11 no Linux)[https://docs.oracle.com/en/java/javase/11/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8]
-(Guia de instalação JDK 11 no Mac)[https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE]
+[Download JDK 11 - Windows](https://www.oracle.com/java/technologies/downloads/#java11-windows)
+[Download JDK 11 - Linux](https://www.oracle.com/java/technologies/downloads/#java11-linux)
+[Download JDK 11 - Mac](https://www.oracle.com/java/technologies/downloads/#java11-mac)
+[Guia de instalação JDK 11 no Linux](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8)
+[Guia de instalação JDK 11 no Mac](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-macos.html#GUID-2FE451B0-9572-4E38-A1A5-568B77B146DE)
