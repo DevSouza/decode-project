@@ -45,7 +45,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Instalar Postman
 - [x] Instalar PostgreSQL com Variável Ambiente e pgAdmin
 - [x] Instalar Git e Acessos aos Códigos Fontes dos Microservices (Versionados)
-- [ ] Acesso Código Fonte
+- [x] Acesso Código Fonte - 1
 
 ### API RESTFul para Microservices: Do Básico ao Avançado
 
