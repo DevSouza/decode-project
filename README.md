@@ -54,7 +54,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Criar e Configurar Base de Dados PostgreSQL
 - [x] Mapeamentos com Spring Data JPA e Lombok
 - [x] API REST com Spring Web
-- [ ] Criar Método de Registro de Usuários com Verificações Iniciais
+- [x] Criar Método de Registro de Usuários com Verificações Iniciais
 - [ ] JsonView - Multiplas Visualizações em APIs
 - [ ] Validação com Spring Validation
 - [ ] Validação Customizada - @Constraint

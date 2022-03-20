@@ -31,8 +31,7 @@ public class UserController {
 				.status(HttpStatus.OK)
 				.body(userService.findAll());
 	}
-	
-	
+
 	@GetMapping("/{userId}")
 	public ResponseEntity<?> getOneUser(@PathVariable(value = "userId") UUID userId) {
 		Optional<UserModel> userModelOptional = userService.findById(userId);
