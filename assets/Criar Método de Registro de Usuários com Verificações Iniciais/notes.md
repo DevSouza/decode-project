@@ -1,0 +1,1 @@
+Observação: Não é preciso inserir o atributo userId em UserDto, vamos utilizar apenas o userId da própria url (iriamos utilizar este atributo posteriormente neste dto, mas não será mais necessário).
