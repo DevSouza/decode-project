@@ -55,7 +55,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Mapeamentos com Spring Data JPA e Lombok
 - [x] API REST com Spring Web
 - [x] Criar Método de Registro de Usuários com Verificações Iniciais
-- [ ] JsonView - Multiplas Visualizações em APIs
+- [x] JsonView - Multiplas Visualizações em APIs
 - [ ] Validação com Spring Validation
 - [ ] Validação Customizada - @Constraint
 - [ ] Paginação em APIs com Spring Data
