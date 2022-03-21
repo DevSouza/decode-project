@@ -58,7 +58,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] JsonView - Multiplas Visualizações em APIs
 - [x] Validação com Spring Validation
 - [x] Validação Customizada - @Constraint
-- [ ] Paginação em APIs com Spring Data
+- [x] Paginação em APIs com Spring Data
 - [ ] Filtros Avançados em APIs com Specification
 - [ ] Hipermídias com Spring Hateoas
 - [ ] Postman Collection AuthUser API
