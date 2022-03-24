@@ -1,5 +1,8 @@
 package com.ead.authuser.controller;
 
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
+
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Optional;
@@ -44,6 +47,12 @@ public class UserController {
 
 		Page<UserModel> userModelPage = userService.findAll(spec, pageable);
 		
+		if(!userModelPage.isEmpty()) {
+			for (UserModel user : userModelPage.toList()) {
+				user.add(linkTo(methodOn(UserController.class).getOneUser(user.getUserId())).withSelfRel());
+			}
+		}
+		
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body(userModelPage);
@@ -58,9 +67,13 @@ public class UserController {
 					.status(HttpStatus.NOT_FOUND)
 					.body("User not found");
 		
+		UserModel user = userModelOptional.get();
+		
+		user.add(linkTo(methodOn(UserController.class).getOneUser(user.getUserId())).withSelfRel());
+		
 		return ResponseEntity
 				.status(HttpStatus.OK)
-				.body(userModelOptional.get());
+				.body(user);
 	}
 	
 	@DeleteMapping("/{userId}")
@@ -97,6 +110,8 @@ public class UserController {
 		userModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
 
 		userService.save(userModel);
+		
+		userModel.add(linkTo(methodOn(UserController.class).getOneUser(userModel.getUserId())).withSelfRel());
 
 		return ResponseEntity
 				.status(HttpStatus.OK)

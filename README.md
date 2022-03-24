@@ -60,7 +60,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Validação Customizada - @Constraint
 - [x] Paginação em APIs com Spring Data
 - [x] Filtros Avançados em APIs com Specification
-- [ ] Hipermídias com Spring Hateoas
+- [x] Hipermídias com Spring Hateoas
 - [ ] Postman Collection AuthUser API
 - [ ] Acesso Código Fonte
 
