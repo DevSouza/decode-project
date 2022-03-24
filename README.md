@@ -62,7 +62,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Filtros Avançados em APIs com Specification
 - [x] Hipermídias com Spring Hateoas
 - [x] Postman Collection AuthUser API
-- [ ] Acesso Código Fonte
+- [x] Acesso Código Fonte - 2
 
 ### Spring Data JPA Avançado em Microservices
 
