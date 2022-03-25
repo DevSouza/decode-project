@@ -66,7 +66,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 ### Spring Data JPA Avançado em Microservices
 
-- [ ] Mapear Entidades, criar Repositories e Services para Multiplas Entidades
+- [x] Mapear Entidades, criar Repositories e Services para Multiplas Entidades
 - [ ] Implementar Relacionamentos OnetoMany e ManyToOne
 - [ ] FetchType Eager/Lazy, @EntityGraph, FetchMode SELECT/SUBSELECT/JOIN, @Query e @Modify
 - [ ] Deleção de Relacionamento Cascade.ALL ou Método de Deleção Customizado
