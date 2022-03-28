@@ -1,0 +1,1 @@
+[@JsonProperty](http://fasterxml.github.io/jackson-annotations/javadoc/2.6/com/fasterxml/jackson/annotation/JsonProperty.Access.html)
