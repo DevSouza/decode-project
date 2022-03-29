@@ -68,7 +68,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 - [x] Mapear Entidades, criar Repositories e Services para Multiplas Entidades
 - [x] Implementar Relacionamentos OnetoMany e ManyToOne
-- [ ] FetchType Eager/Lazy, @EntityGraph, FetchMode SELECT/SUBSELECT/JOIN, @Query e @Modify
+- [x] FetchType Eager/Lazy, @EntityGraph, FetchMode SELECT/SUBSELECT/JOIN, @Query e @Modify
 - [ ] Deleção de Relacionamento Cascade.ALL ou Método de Deleção Customizado
 - [ ] Criar API RESTful para Course com Validação Spring Validation
 - [ ] Criar RESTful para Module com Validações
