@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.Set;
 import java.util.UUID;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -66,6 +67,15 @@ public class CourseModel implements Serializable {
 	@Column(nullable = false)
 	private UUID userInstructor;
 
+	/**
+	 *  Removed in Video
+	 * 
+	 * Delete in cascade - Method 1
+	 * 	@OneToMany(mappedBy = "course", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
+	 * 
+	 * Delete in cascade - Method 2
+	 * 	@OnDelete(action = OnDeleteAction.CASCADE)
+	 **/
 	@Fetch(FetchMode.SUBSELECT)
 	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
 	@OneToMany(mappedBy = "course", fetch = FetchType.LAZY)
