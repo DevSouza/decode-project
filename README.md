@@ -70,7 +70,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Implementar Relacionamentos OnetoMany e ManyToOne
 - [x] FetchType Eager/Lazy, @EntityGraph, FetchMode SELECT/SUBSELECT/JOIN, @Query e @Modify
 - [x] Deleção de Relacionamento Cascade.ALL ou Método de Deleção Customizado
-- [ ] Criar API RESTful para Course com Validação Spring Validation
+- [x] Criar API RESTful para Course com Validação Spring Validation
 - [ ] Criar RESTful para Module com Validações
 - [ ] Criar RESTful para Lesson com Validações
 - [ ] Filtros Avançados em APIs com Specification e Pageable
