@@ -73,7 +73,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Criar API RESTful para Course com Validação Spring Validation
 - [x] Criar RESTful para Module com Validações
 - [x] Criar RESTful para Lesson com Validações
-- [ ] Filtros Avançados em APIs com Specification e Pageable
+- [x] Filtros Avançados em APIs com Specification e Pageable
 - [ ] Filtros Avançados em APIs com Specification Avançado para Relacionamento e Pageable
 - [ ] Boas Práticas de Datas nas APIs utilizando o Padrão ISO 8601 UTC
 - [ ] Acesso Código Fonte
