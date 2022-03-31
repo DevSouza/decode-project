@@ -1,0 +1,9 @@
+    public static Specification<EntityA> moduleCourseId(final UUID id) {
+        return (root, query, cb) -> {
+            query.distinct(true);
+            Root<EntityA> a = root;
+            Root<EntityB> b = query.from(EntityB.class);
+            Expression<Collection<EntityA>> colecttionBA = b.get("collection");
+            return cb.and(cb.equal(b.get("id"), id), cb.isMember(a, colecttionBA));
+        };
+    }
