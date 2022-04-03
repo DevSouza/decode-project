@@ -32,6 +32,9 @@ import com.ead.authuser.services.UserService;
 import com.ead.authuser.specifications.SpecificationTemplate;
 import com.fasterxml.jackson.annotation.JsonView;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RequestMapping("/users")
@@ -78,6 +81,7 @@ public class UserController {
 	
 	@DeleteMapping("/{userId}")
 	public ResponseEntity<?> deleteUser(@PathVariable(value = "userId") UUID userId) {
+		log.debug("DELETE deleteUser userId received {} ", userId);
 		Optional<UserModel> userModelOptional = userService.findById(userId);
 		
 		if(!userModelOptional.isPresent())
@@ -86,6 +90,8 @@ public class UserController {
 					.body("User not found");
 		
 		userService.delete(userModelOptional.get());
+		log.debug("DELETE deleteUser userId deleted {} ", userId);
+        log.info("User deleted successfully userId {} ", userId);
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body("User deleted success");
@@ -96,6 +102,8 @@ public class UserController {
 			@PathVariable(value = "userId") UUID userId,
 			@Validated(UserDto.UserView.UserPut.class) @RequestBody @JsonView(UserDto.UserView.UserPut.class) UserDto userDto
 	) {
+		log.debug("PUT updateUser userDto received {} ", userDto.toString());
+		
 		Optional<UserModel> userModelOptional = userService.findById(userId);
 
 		if(!userModelOptional.isPresent())
@@ -113,6 +121,9 @@ public class UserController {
 		
 		userModel.add(linkTo(methodOn(UserController.class).getOneUser(userModel.getUserId())).withSelfRel());
 
+		log.debug("POST updateUser userModel saved {}", userModel);
+        log.info("User updated successfully userId {}", userModel.getUserId());
+        
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body(userModel);
@@ -123,6 +134,7 @@ public class UserController {
 			@PathVariable(value = "userId") UUID userId,
 			@RequestBody @Validated(UserDto.UserView.PasswordPut.class) @JsonView(UserDto.UserView.PasswordPut.class) UserDto userDto
 	) {
+		log.debug("PATCH updatePassword userDto received {} ", userDto.toString());
 		Optional<UserModel> userModelOptional = userService.findById(userId);
 
 		if(!userModelOptional.isPresent())
@@ -130,17 +142,20 @@ public class UserController {
 					.status(HttpStatus.NOT_FOUND)
 					.body("User not found.");
 
-		if(!userModelOptional.get().getPassword().equals(userDto.getOldPassword()))
+		if(!userModelOptional.get().getPassword().equals(userDto.getOldPassword())) {
+			log.warn("Mismatched old password userId {} ", userDto.getUserId());			
 			return ResponseEntity
 					.status(HttpStatus.CONFLICT)
 					.body("Error: Mismatched old password!");
+		}
 
 		var userModel = userModelOptional.get();
 		userModel.setPassword(userDto.getPassword());
 		userModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
 
 		userService.save(userModel);
-
+		log.debug("PATCH updatePassword userModel saved {} ", userModel.toString());
+        log.info("Password updated successfully userId {} ", userModel.getUserId());
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body("Password updated successfully.");
@@ -151,6 +166,7 @@ public class UserController {
 			@PathVariable(value = "userId") UUID userId,
 			@RequestBody @Validated(UserDto.UserView.ImagePut.class) @JsonView(UserDto.UserView.ImagePut.class) UserDto userDto
 	) {
+		log.debug("PATCH updateImage userDto received {} ", userDto.toString());
 		Optional<UserModel> userModelOptional = userService.findById(userId);
 
 		if(!userModelOptional.isPresent())
@@ -163,7 +179,8 @@ public class UserController {
 		userModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
 
 		userService.save(userModel);
-
+		log.debug("PATCH updateImage userModel saved {} ", userModel.toString());
+        log.info("Image updated successfully userId {} ", userModel.getUserId());
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body(userModel);

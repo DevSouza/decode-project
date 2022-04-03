@@ -22,6 +22,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import lombok.Data;
+import lombok.ToString;
 
 @Data
 @Entity
@@ -40,6 +41,7 @@ public class UserModel extends RepresentationModel<UserModel> implements Seriali
     @Column(nullable = false, unique = true, length = 50)
     private String email;
 
+    @ToString.Exclude
     @JsonIgnore
     @Column(nullable = false, length = 255)
     private String password;

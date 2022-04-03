@@ -30,6 +30,9 @@ import com.ead.course.models.CourseModel;
 import com.ead.course.services.CourseService;
 import com.ead.course.specifications.SpecificationTemplete;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 @RestController
 @RequestMapping("/courses")
 @CrossOrigin(origins = "*", maxAge = 3600)
@@ -40,19 +43,23 @@ public class CourseController {
 	
 	@PostMapping
 	public ResponseEntity<?> saveCourse(@RequestBody @Valid CourseDto courseDto) {
+		log.debug("POST saveCourse courseDto received {} ", courseDto.toString());
 		var courseModel = new CourseModel();
 		BeanUtils.copyProperties(courseDto, courseModel);
 		
 		courseModel.setCreationDate(LocalDateTime.now(ZoneId.of("UTC")));
 		courseModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
-		
+		courseService.save(courseModel);
+		log.debug("POST saveCourse courseId saved {} ", courseModel.getCourseId());
+        log.info("Course saved successfully courseId {} ", courseModel.getCourseId());
 		return ResponseEntity
 				.status(HttpStatus.CREATED)
-				.body(courseService.save(courseModel));		
+				.body(courseModel);		
 	}
 	
 	@DeleteMapping("/{courseId}")
 	public ResponseEntity<?> deleteCourse(@PathVariable("courseId") UUID courseId){
+		log.debug("DELETE deleteCourse courseId received {} ", courseId);
 		Optional<CourseModel> courseModelOptional = courseService.findById(courseId);
 		
 		if (!courseModelOptional.isPresent()) {
@@ -62,7 +69,8 @@ public class CourseController {
 		}
 		
 		courseService.delete(courseModelOptional.get());
-		
+        log.debug("DELETE deleteCourse courseId deleted {} ", courseId);
+        log.info("Course deleted successfully courseId {} ", courseId);
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body("Course deleted successfully");
@@ -71,6 +79,7 @@ public class CourseController {
 	@PutMapping("/{courseId}")
 	public ResponseEntity<?> updateCourse(@PathVariable("courseId") UUID courseId,
 			@RequestBody @Valid CourseDto courseDto) {
+		log.debug("PUT updateCourse courseDto received {} ", courseDto.toString());
 		Optional<CourseModel> courseModelOptional = courseService.findById(courseId);
 		
 		if (!courseModelOptional.isPresent()) {
@@ -87,9 +96,13 @@ public class CourseController {
 		courseModel.setCourseLevel(courseDto.getCourseLevel());
 		courseModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
 		
+		courseService.save(courseModel);
+		
+		log.debug("PUT updateCourse courseId saved {} ", courseModel.getCourseId());
+        log.info("Course updated successfully courseId {} ", courseModel.getCourseId());
 		return ResponseEntity
 				.status(HttpStatus.OK)
-				.body(courseService.save(courseModel));	
+				.body(courseModel);	
 	}
 	
 	@GetMapping
