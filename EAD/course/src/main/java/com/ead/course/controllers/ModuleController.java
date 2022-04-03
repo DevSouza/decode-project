@@ -31,6 +31,9 @@ import com.ead.course.services.CourseService;
 import com.ead.course.services.ModuleService;
 import com.ead.course.specifications.SpecificationTemplete;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 public class ModuleController {
@@ -43,6 +46,7 @@ public class ModuleController {
 
 	@PostMapping("/courses/{courseId}/modules")
 	public ResponseEntity<?> saveModule(@RequestBody @Valid ModuleDto moduleDto, @PathVariable("courseId") UUID courseId) {
+		log.debug("POST saveModule moduleDto received {} ", moduleDto.toString());
 		Optional<CourseModel> courseModelOptional = courseService.findById(courseId);
 		
 		if (!courseModelOptional.isPresent()) {
@@ -56,16 +60,21 @@ public class ModuleController {
 		moduleModel.setCreationDate(LocalDateTime.now(ZoneId.of("UTC")));
 		moduleModel.setCourse(courseModelOptional.get());
 		
+		moduleService.save(moduleModel);
+		
+		log.debug("POST saveModule moduleId saved {} ", moduleModel.getModuleId());
+        log.info("Module saved successfully moduleId {} ", moduleModel.getModuleId());
+        
 		return ResponseEntity
 				.status(HttpStatus.CREATED)
-				.body(moduleService.save(moduleModel));
+				.body(moduleModel);
 	}
 	
 	@DeleteMapping("/courses/{courseId}/modules/{moduleId}")
 	public ResponseEntity<?> deleteModule(
 			@PathVariable("courseId") UUID courseId,
 			@PathVariable("moduleId") UUID moduleId){
-		
+		log.debug("DELETE deleteModule moduleId received {} ", moduleId);
 		Optional<ModuleModel> moduleModelOptional = moduleService.findModuleIntoCourse(courseId, moduleId);
 		
 		if (!moduleModelOptional.isPresent()) {
@@ -75,7 +84,9 @@ public class ModuleController {
 		}
 		
 		moduleService.delete(moduleModelOptional.get());
-		
+		log.debug("DELETE deleteModule moduleId deleted {} ", moduleId);
+        log.info("Module deleted successfully moduleId {} ", moduleId);
+        
 		return ResponseEntity
 				.status(HttpStatus.OK)
 				.body("Module deleted successfully.");
@@ -86,7 +97,7 @@ public class ModuleController {
 			@RequestBody @Valid ModuleDto moduleDto,
 			@PathVariable("courseId") UUID courseId,
 			@PathVariable("moduleId") UUID moduleId) {
-		
+		log.debug("PUT updateModule moduleDto received {} ", moduleDto.toString());
 		Optional<ModuleModel> moduleModelOptional = moduleService.findModuleIntoCourse(courseId, moduleId);
 		
 		if (!moduleModelOptional.isPresent()) {
@@ -99,9 +110,14 @@ public class ModuleController {
 		moduleModel.setTitle(moduleDto.getTitle());
 		moduleModel.setDescription(moduleDto.getDescription());
 		
+		moduleService.save(moduleModel);
+		
+		log.debug("PUT updateModule moduleId saved {} ", moduleModel.getModuleId());
+        log.info("Module updated successfully moduleId {} ", moduleModel.getModuleId());
+        
 		return ResponseEntity
 				.status(HttpStatus.OK)
-				.body(moduleService.save(moduleModel));
+				.body(moduleModel);
 	}
 	
 	@GetMapping("/courses/{courseId}/modules")

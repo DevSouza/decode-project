@@ -4,6 +4,7 @@ import com.ead.authuser.validation.UsernameConstraint;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonView;
 import lombok.Data;
+import lombok.ToString;
 
 import java.util.UUID;
 
@@ -37,11 +38,13 @@ public class UserDto {
     @JsonView(UserView.RegistrationPost.class)
     private String email;
 
+    @ToString.Exclude
     @Size(min = 6, max = 20, groups = {UserView.RegistrationPost.class, UserView.PasswordPut.class})
     @NotBlank(groups = {UserView.RegistrationPost.class, UserView.PasswordPut.class})
     @JsonView({UserView.RegistrationPost.class, UserView.PasswordPut.class})
     private String password;
 
+    @ToString.Exclude
     @Size(min = 6, max = 20, groups = UserView.PasswordPut.class)
     @NotBlank(groups = UserView.PasswordPut.class)
     @JsonView(UserView.PasswordPut.class)
