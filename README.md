@@ -77,7 +77,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Filtros Avançados em APIs com Specification Avançado para Relacionamento e Pageable
 - [x] Boas Práticas de Datas nas APIs utilizando o Padrão ISO 8601 UTC
 - [x] Acesso Código Fonte - 3
-- [ ] Postman Collection Course API
+- [x] Postman Collection Course API
 
 ### Spring Logging
 
