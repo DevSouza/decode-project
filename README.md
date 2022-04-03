@@ -83,7 +83,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 - [x] Principais Bibliotecas de Logging, Log Levels e Logging no Spring com Logback
 - [x] Implementando Logging nos Microservices com Log4J2
-- [ ] Acesso Código Fonte
+- [x] Acesso Código Fonte - 4
 
 ### API Composition Pattern e Synchronous Communication
 
