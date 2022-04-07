@@ -121,7 +121,7 @@ public class UserController {
 		
 		userModel.add(linkTo(methodOn(UserController.class).getOneUser(userModel.getUserId())).withSelfRel());
 
-		log.debug("POST updateUser userModel saved {}", userModel);
+		log.debug("POST updateUser userId saved {}", userModel.getUserId());
         log.info("User updated successfully userId {}", userModel.getUserId());
         
 		return ResponseEntity
@@ -154,7 +154,7 @@ public class UserController {
 		userModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
 
 		userService.save(userModel);
-		log.debug("PATCH updatePassword userModel saved {} ", userModel.toString());
+		log.debug("PATCH updatePassword userId saved {} ", userModel.getUserId());
         log.info("Password updated successfully userId {} ", userModel.getUserId());
 		return ResponseEntity
 				.status(HttpStatus.OK)
@@ -179,7 +179,7 @@ public class UserController {
 		userModel.setLastUpdateDate(LocalDateTime.now(ZoneId.of("UTC")));
 
 		userService.save(userModel);
-		log.debug("PATCH updateImage userModel saved {} ", userModel.toString());
+		log.debug("PATCH updateImage userId saved {} ", userModel.getUserId());
         log.info("Image updated successfully userId {} ", userModel.getUserId());
 		return ResponseEntity
 				.status(HttpStatus.OK)
