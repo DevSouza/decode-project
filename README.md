@@ -87,7 +87,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 ### API Composition Pattern e Synchronous Communication
 
-- [ ] Conceitos de API Composition Pattern
+- [x] Conceitos de API Composition Pattern
 - [ ] Mapear Relacionamentos para Comunicação entre Microservices
 - [ ] API Composition Pattern - Preparar Métodos GetAll
 - [ ] API Composition Pattern em Authuser Microservice – Parte 01
