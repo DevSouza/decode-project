@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ead.course.dtos.CourseDto;
@@ -108,11 +109,18 @@ public class CourseController {
 	@GetMapping
 	public ResponseEntity<Page<CourseModel>> getAllCourses(
 			SpecificationTemplete.CourseSpec spec,
-			@PageableDefault(page = 0, size = 10, sort = "courseId", direction = Sort.Direction.ASC) Pageable pageable){
+			@PageableDefault(page = 0, size = 10, sort = "courseId", direction = Sort.Direction.ASC) Pageable pageable,
+			@RequestParam(required = false) UUID userId){
 		
-		return ResponseEntity
-				.status(HttpStatus.OK)
-				.body(courseService.findAll(spec, pageable));
+		if(userId != null) {
+			return ResponseEntity
+					.status(HttpStatus.OK)
+					.body(courseService.findAll(SpecificationTemplete.courseUserId(userId).and(spec), pageable));
+		} else {
+			return ResponseEntity
+					.status(HttpStatus.OK)
+					.body(courseService.findAll(spec, pageable));
+		}
 	}
 	
 	@GetMapping("/{courseId}")
