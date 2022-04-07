@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ead.authuser.dtos.UserDto;
@@ -46,9 +47,16 @@ public class UserController {
 	@GetMapping
 	public ResponseEntity<Page<UserModel>> getAllUsers(
 			SpecificationTemplate.UserSpec spec,
-			@PageableDefault(page = 0, size = 10, sort = "userId", direction = Sort.Direction.ASC) Pageable pageable) {
+			@PageableDefault(page = 0, size = 10, sort = "userId", direction = Sort.Direction.ASC) Pageable pageable,
+			@RequestParam(required = false) UUID courseId) {
 
-		Page<UserModel> userModelPage = userService.findAll(spec, pageable);
+		Page<UserModel> userModelPage = null;
+		
+		if(courseId != null) {
+			userModelPage = userService.findAll(SpecificationTemplate.userCourseId(courseId).and(spec), pageable);
+		} else {
+			userModelPage = userService.findAll(spec, pageable);
+		}
 		
 		if(!userModelPage.isEmpty()) {
 			for (UserModel user : userModelPage.toList()) {
