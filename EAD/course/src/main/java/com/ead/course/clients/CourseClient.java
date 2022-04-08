@@ -1,4 +1,4 @@
-package com.ead.authuser.clients;
+package com.ead.course.clients;
 
 import java.util.List;
 import java.util.UUID;
@@ -13,15 +13,15 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestTemplate;
 
-import com.ead.authuser.dtos.CourseDto;
-import com.ead.authuser.dtos.ResponsePageDto;
-import com.ead.authuser.services.UtilsService;
+import com.ead.course.dtos.ResponsePageDto;
+import com.ead.course.dtos.UserDto;
+import com.ead.course.services.UtilsService;
 
 import lombok.extern.log4j.Log4j2;
 
 @Log4j2
 @Component
-public class UserClient {
+public class CourseClient {
 
 	@Autowired
 	RestTemplate restTemplate;
@@ -29,26 +29,25 @@ public class UserClient {
 	@Autowired
 	UtilsService utilsService;
 	
-	public Page<CourseDto> getAllCoursesByUser(UUID userId, Pageable pageable) {
-		List<CourseDto> searchResult = null;
-		ResponseEntity<ResponsePageDto<CourseDto>> result = null;
-		String url = utilsService.createUrl(userId, pageable);
+	public Page<UserDto> getAllUsersByCourse(UUID courseId, Pageable pageable) {
+		List<UserDto> searchResult = null;
+		ResponseEntity<ResponsePageDto<UserDto>> result = null;
+		String url = utilsService.createUrl(courseId, pageable);
 		log.debug("Request URL: ", url);
 		log.info("Request URL: ", url);
 		
 		try {
-			ParameterizedTypeReference<ResponsePageDto<CourseDto>> responseType = new ParameterizedTypeReference<ResponsePageDto<CourseDto>>() {};
+			ParameterizedTypeReference<ResponsePageDto<UserDto>> responseType = new ParameterizedTypeReference<ResponsePageDto<UserDto>>() {};
 			
 			result = restTemplate.exchange(url, HttpMethod.GET, null, responseType);
 			searchResult = result.getBody().getContent();
 			log.debug("Response Number of Elements: {}", searchResult.size());
 		} catch (HttpStatusCodeException e) {
-			log.error("Error request /courses {}", e);
+			log.error("Error request /users {}", e);
 		}
 		
-		log.info("Ending request /courses userId {}", userId);
+		log.info("Ending request /courses courseId {}", courseId);
 		//return new PageImpl<>(searchResult);
 		return result.getBody(); 
 	}
-	
 }
