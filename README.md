@@ -91,7 +91,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Mapear Relacionamentos para Comunicação entre Microservices
 - [x] API Composition Pattern - Preparar Métodos GetAll
 - [x] API Composition Pattern em Authuser Microservice – Parte 01
-- [ ] API Composition Pattern em Authuser Microservice – Parte 02
+- [x] API Composition Pattern em Authuser Microservice – Parte 02
 - [ ] API Composition Pattern em Course Microservice
 - [ ] Comunicação Síncrona Entre Microservices - Layout e Fluxos (Ferramentas)
 - [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 1
@@ -242,3 +242,9 @@ Formação de Especialistas em Microservices Java com Spring
 ### Considerações Finais
 
 - [ ] Overview Projeto Decoder: Especialista em Microservices com Spring
+
+### Decoder Week [Evento Extra]
+
+- [ ] [Dia 1] Modelagem Arquitetura de Microservices
+- [ ] [Dia 2] Modelos de Comunicações entre Microservices
+- [ ] [Dia 3] Microservices Patterns e suas Aplicabilidades
