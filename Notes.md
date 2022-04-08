@@ -42,3 +42,6 @@ public class CourseModel implements Serializable{
   ...
 }
 ```
+
+### OpenFeign 
+Uma opção para o RestTemplate [Spring Cloud OpenFeign](https://docs.spring.io/spring-cloud-openfeign/docs/current/reference/html/)

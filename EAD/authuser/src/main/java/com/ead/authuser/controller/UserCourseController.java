@@ -16,9 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ead.authuser.clients.UserClient;
 import com.ead.authuser.dtos.CourseDto;
 
-import lombok.extern.log4j.Log4j2;
-
-@Log4j2
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
 public class UserCourseController {
@@ -31,10 +28,7 @@ public class UserCourseController {
 			@PageableDefault(sort = "courseId") Pageable pageable,
 			@PathVariable UUID userId) {
 		
-		
-		
 		return ResponseEntity.status(HttpStatus.OK).body(userClient.getAllCoursesByUser(userId, pageable));
-		
 	}
 	
 }
