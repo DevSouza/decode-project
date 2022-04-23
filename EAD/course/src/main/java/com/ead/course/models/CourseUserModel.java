@@ -14,10 +14,14 @@ import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "TB_COURSES_USERS")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class CourseUserModel implements Serializable {

@@ -94,7 +94,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] API Composition Pattern em Authuser Microservice – Parte 02
 - [x] API Composition Pattern em Course Microservice
 - [x] Comunicação Síncrona Entre Microservices - Layout e Fluxos (Ferramentas)
-- [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 1
+- [x] Comunicação Síncrona - Inscrição de User em Course - Parte 1
 - [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 2
 - [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 3
 - [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 4
