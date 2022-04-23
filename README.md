@@ -96,7 +96,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Comunicação Síncrona Entre Microservices - Layout e Fluxos (Ferramentas)
 - [x] Comunicação Síncrona - Inscrição de User em Course - Parte 1
 - [x] Comunicação Síncrona - Inscrição de User em Course - Parte 2
-- [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 3
+- [x] Comunicação Síncrona - Inscrição de User em Course - Parte 3
 - [ ] Comunicação Síncrona - Inscrição de User em Course - Parte 4
 - [ ] Tipo User Instructor para Criar Courses
 - [ ] Validação Customizada - Custom Validation
