@@ -102,7 +102,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Validação Customizada - Custom Validation
 - [x] Comunicação Síncrona - Preparação de Deleção Entre Microservices
 - [x] Acesso Código Fonte - 5
-- [ ] Postman Collection
+- [x] Postman Collection - 1
 
 ### Cross Cutting Service Registry Discovery Pattern
 
