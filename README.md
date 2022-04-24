@@ -100,7 +100,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Comunicação Síncrona - Inscrição de User em Course - Parte 4
 - [x] Tipo User Instructor para Criar Courses
 - [x] Validação Customizada - Custom Validation
-- [ ] Comunicação Síncrona - Preparação de Deleção Entre Microservices
+- [x] Comunicação Síncrona - Preparação de Deleção Entre Microservices
 - [ ] Acesso Código Fonte
 - [ ] Postman Collection
 
