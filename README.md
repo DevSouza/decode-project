@@ -101,7 +101,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Tipo User Instructor para Criar Courses
 - [x] Validação Customizada - Custom Validation
 - [x] Comunicação Síncrona - Preparação de Deleção Entre Microservices
-- [ ] Acesso Código Fonte
+- [x] Acesso Código Fonte - 5
 - [ ] Postman Collection
 
 ### Cross Cutting Service Registry Discovery Pattern
