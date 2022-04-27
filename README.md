@@ -109,7 +109,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Conceitos de Service Registry Discovery Pattern
 - [x] Criar Service Registry com Spring Cloud Netflix Eureka
 - [x] Eureka Clients nos Microservices de Negócio
-- [ ] Comunicações Síncronas com Client-side Discovery Pattern
+- [x] Comunicações Síncronas com Client-side Discovery Pattern
 - [ ] Acesso Código Fonte
 
 ### Cross Cutting API Gateway Pattern
