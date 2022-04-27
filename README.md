@@ -106,7 +106,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 ### Cross Cutting Service Registry Discovery Pattern
 
-- [ ] Conceitos de Service Registry Discovery Pattern
+- [x] Conceitos de Service Registry Discovery Pattern
 - [ ] Criar Service Registry com Spring Cloud Netflix Eureka
 - [ ] Eureka Clients nos Microservices de Negócio
 - [ ] Comunicações Síncronas com Client-side Discovery Pattern
