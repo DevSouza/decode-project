@@ -7,93 +7,93 @@ Formação de Especialistas em Microservices Java com Spring
 
 ## Aulas 
 
-### Boas Vindas
+### [Boas Vindas](./assets/Boas%20Vindas/)
 
 - [x] Bem-Vindo(a): Propósito e Motivação
 - [x] Projeto Decoder - Overview Completo
-- [x] Cronograma do Projeto Decoder
+- [x] [Cronograma do Projeto Decoder](./assets/Boas%20Vindas/Cronograma%20do%20Projeto%20Decoder/notes.md)
 - [x] Avisos Importantes - Termos e Copyright
-- [x] Suporte e Comunidade Discord
-- [x] F.A.Q - Perguntas Frequentes
+- [x] [Suporte e Comunidade Discord](./assets/Boas%20Vindas/Suporte%20e%20Comunidade%20Discord/notes.md)
+- [x] [F.A.Q - Perguntas Frequentes](./assets/Boas%20Vindas/F.A.Q%20-%20Perguntas%20Frequentes/notes.md)
 
-### Descodificando Microservices com Spring [Evento]
+### [Descodificando Microservices com Spring (Evento)](./assets/Descodificando%20Microservices%20com%20Spring%20%5BEvento%5D/)
 
 - [x] O Fim dos Monolíticos - Vantagens dos Microservices
-- [x] Fundamentos Microservices - Desafios e Equívocos
-- [x] Microservices Patterns e Spring Projects
+- [x] [Fundamentos Microservices - Desafios e Equívocos](./assets/Descodificando%20Microservices%20com%20Spring%20%5BEvento%5D/Fundamentos%20Microservices%20-%20Desafios%20e%20Equ%C3%ADvocos/notes.md)
+- [x] [Microservices Patterns e Spring Projects](./assets/Descodificando%20Microservices%20com%20Spring%20%5BEvento%5D/Microservices%20Patterns%20e%20Spring%20Projects/notes.md)
 
-### Planejamento Arquitetura de Microservices: Componentes e Comunicações
+### [Planejamento Arquitetura de Microservices: Componentes e Comunicações](./assets/Planejamento%20Arquitetura%20de%20Microservices%20Componentes%20e%20Comunica%C3%A7%C3%B5es/)
 
-- [x] Concepção da Arquitetura de Microservices
-- [x] Definição dos Componentes e Comunicações
-- [x] Base de Dados Compartilhada e Base de Dados por Microservice
-- [x] Comunicação Microservice: Síncrona e Assíncrona
-- [x] Assincronia por Mensageria ou Eventos
+- [x] [Concepção da Arquitetura de Microservices](./assets/Planejamento%20Arquitetura%20de%20Microservices%20Componentes%20e%20Comunica%C3%A7%C3%B5es/Concep%C3%A7%C3%A3o%20da%20Arquitetura%20de%20Microservices/notes.md)
+- [x] [Definição dos Componentes e Comunicações](./assets/Planejamento%20Arquitetura%20de%20Microservices%20Componentes%20e%20Comunica%C3%A7%C3%B5es/Defini%C3%A7%C3%A3o%20dos%20Componentes%20e%20Comunica%C3%A7%C3%B5es/notes.md)
+- [x] [Base de Dados Compartilhada e Base de Dados por Microservice](./assets/Planejamento%20Arquitetura%20de%20Microservices%20Componentes%20e%20Comunica%C3%A7%C3%B5es/Base%20de%20Dados%20Compartilhada%20e%20Base%20de%20Dados%20por%20Microservice/notes.md)
+- [x] [Comunicação Microservice: Síncrona e Assíncrona](./assets/Planejamento%20Arquitetura%20de%20Microservices%20Componentes%20e%20Comunica%C3%A7%C3%B5es/Comunica%C3%A7%C3%A3o%20Microservice%20S%C3%ADncrona%20e%20Ass%C3%ADncrona/notes.md)
+- [x] [Assincronia por Mensageria ou Eventos](./assets/Planejamento%20Arquitetura%20de%20Microservices%20Componentes%20e%20Comunica%C3%A7%C3%B5es/Assincronia%20por%20Mensageria%20ou%20Eventos/notes.md)
 
-### Ecossistema Spring Aplicados a Microservices
+### [Ecossistema Spring Aplicados a Microservices](./assets/Ecossistema%20Spring%20Aplicados%20a%20Microservices/)
 
-- [x] Spring Framework e Spring Boot
-- [x] Projetos Spring para Arquitetura de Microservices
+- [x] [Spring Framework e Spring Boot](./assets/Ecossistema%20Spring%20Aplicados%20a%20Microservices/Spring%20Framework%20e%20Spring%20Boot/notes.md)
+- [x] [Projetos Spring para Arquitetura de Microservices](./assets/Ecossistema%20Spring%20Aplicados%20a%20Microservices/Projetos%20Spring%20para%20Arquitetura%20de%20Microservices/notes.md)
 
-### Microservices com Spring: Primeiros Passos
+### [Microservices com Spring: Primeiros Passos](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/)
 
-- [x] Instalar JDK 11 e Configurar Variável JAVA_HOME
-- [x] Instalar Maven e Configurar Variável MAVEN_HOME
-- [x] Instalar Intelij IDEA - Licença Brinde de 6 Meses
-- [x] O Primeiro Microservice - AuthUser
+- [x] [Instalar JDK 11 e Configurar Variável JAVA_HOME](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Instalar%20JDK%2011%20e%20Configurar%20Vari%C3%A1vel%20JAVA_HOME/notes.md)
+- [x] [Instalar Maven e Configurar Variável MAVEN_HOME](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Instalar%20Maven%20e%20Configurar%20Vari%C3%A1vel%20MAVEN_HOME/notes.md)
+- [x] [Instalar Intelij IDEA - Licença Brinde de 6 Meses](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Instalar%20Intelij%20IDEA%20-%20Licen%C3%A7a%20Brinde%20de%206%20Meses/notes.md)
+- [x] [O Primeiro Microservice - AuthUser](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/O%20Primeiro%20Microservice%20-%20AuthUser/notes.md)
 - [x] Arquitetura EAD - Criando Microservices Course e Notification
-- [x] Instalar Postman
-- [x] Instalar PostgreSQL com Variável Ambiente e pgAdmin
-- [x] Instalar Git e Acessos aos Códigos Fontes dos Microservices (Versionados)
-- [x] Acesso Código Fonte - 1
+- [x] [Instalar Postman](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Instalar%20Postman/notes.md)
+- [x] [Instalar PostgreSQL com Variável Ambiente e pgAdmin](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Instalar%20PostgreSQL%20com%20Vari%C3%A1vel%20Ambiente%20e%20pgAdmin/notes.md)
+- [x] [Instalar Git e Acessos aos Códigos Fontes dos Microservices (Versionados)](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Instalar%20Git%20e%20Acessos%20aos%20C%C3%B3digos%20Fontes%20dos%20Microservices%20(Versionados)/notes.md)
+- [x] [Acesso Código Fonte](./assets/Microservices%20com%20Spring%20Primeiros%20Passos/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### API RESTFul para Microservices: Do Básico ao Avançado
+### [API RESTFul para Microservices: Do Básico ao Avançado](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/)
 
-- [x] API REST vs RESTful: Introdução e Conceitos
-- [x] Overview da API RESTFul a ser Utilizada na Arquitetura
+- [x] [API REST vs RESTful: Introdução e Conceitos](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/API%20REST%20vs%20RESTful%20Introdu%C3%A7%C3%A3o%20e%20Conceitos/notes.md)
+- [x] [Overview da API RESTFul a ser Utilizada na Arquitetura](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/Overview%20da%20API%20RESTFul%20a%20ser%20Utilizada%20na%20Arquitetura/notes.md)
 - [x] Criar e Configurar Base de Dados PostgreSQL
 - [x] Mapeamentos com Spring Data JPA e Lombok
 - [x] API REST com Spring Web
-- [x] Criar Método de Registro de Usuários com Verificações Iniciais
+- [x] [Criar Método de Registro de Usuários com Verificações Iniciais](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/Criar%20M%C3%A9todo%20de%20Registro%20de%20Usu%C3%A1rios%20com%20Verifica%C3%A7%C3%B5es%20Iniciais/notes.md)
 - [x] JsonView - Multiplas Visualizações em APIs
 - [x] Validação com Spring Validation
 - [x] Validação Customizada - @Constraint
 - [x] Paginação em APIs com Spring Data
-- [x] Filtros Avançados em APIs com Specification
+- [x] [Filtros Avançados em APIs com Specification](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/Filtros%20Avan%C3%A7ados%20em%20APIs%20com%20Specification/notes.md)
 - [x] Hipermídias com Spring Hateoas
-- [x] Postman Collection AuthUser API
-- [x] Acesso Código Fonte - 2
+- [x] [Postman Collection AuthUser API](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/Postman%20Collection%20AuthUser%20API/notes.md)
+- [x] [Acesso Código Fonte](./assets/API%20RESTFul%20para%20Microservices%20Do%20B%C3%A1sico%20ao%20Avan%C3%A7ado/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### Spring Data JPA Avançado em Microservices
+### [Spring Data JPA Avançado em Microservices](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/)
 
 - [x] Mapear Entidades, criar Repositories e Services para Multiplas Entidades
-- [x] Implementar Relacionamentos OnetoMany e ManyToOne
-- [x] FetchType Eager/Lazy, @EntityGraph, FetchMode SELECT/SUBSELECT/JOIN, @Query e @Modify
+- [x] [Implementar Relacionamentos OnetoMany e ManyToOne](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/Implementar%20Relacionamentos%20OnetoMany%20e%20ManyToOne/notes.md)
+- [x] [FetchType Eager/Lazy, @EntityGraph, FetchMode SELECT/SUBSELECT/JOIN, @Query e @Modify](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/FetchType%20Eager-Lazy%2C%20%40EntityGraph%2C%20FetchMode%20SELECT-SUBSELECT-JOIN%2C%20%40Query%20e%20%40Modify/notes.md)
 - [x] Deleção de Relacionamento Cascade.ALL ou Método de Deleção Customizado
 - [x] Criar API RESTful para Course com Validação Spring Validation
 - [x] Criar RESTful para Module com Validações
 - [x] Criar RESTful para Lesson com Validações
 - [x] Filtros Avançados em APIs com Specification e Pageable
-- [x] Filtros Avançados em APIs com Specification Avançado para Relacionamento e Pageable
-- [x] Boas Práticas de Datas nas APIs utilizando o Padrão ISO 8601 UTC
-- [x] Acesso Código Fonte - 3
-- [x] Postman Collection Course API
+- [x] [Filtros Avançados em APIs com Specification Avançado para Relacionamento e Pageable](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/Filtros%20Avan%C3%A7ados%20em%20APIs%20com%20Specification%20Avan%C3%A7ado%20para%20Relacionamento%20e%20Pageable/notes.md)
+- [x] [Boas Práticas de Datas nas APIs utilizando o Padrão ISO 8601 UTC](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/Boas%20Pr%C3%A1ticas%20de%20Datas%20nas%20APIs%20utilizando%20o%20Padr%C3%A3o%20ISO%208601%20UTC/notes.md)
+- [x] [Acesso Código Fonte](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/Acesso%20C%C3%B3digo%20Fonte/notes.md)
+- [x] [Postman Collection Course API](./assets/Spring%20Data%20JPA%20Avan%C3%A7ado%20em%20Microservices/Postman%20Collection%20Course%20API/notes.md)
 
-### Spring Logging
+### [Spring Logging](./assets/Spring%20Logging/)
 
-- [x] Principais Bibliotecas de Logging, Log Levels e Logging no Spring com Logback
+- [x] [Principais Bibliotecas de Logging, Log Levels e Logging no Spring com Logback](./assets/Spring%20Logging/Principais%20Bibliotecas%20de%20Logging%2C%20Log%20Levels%20e%20Logging%20no%20Spring%20com%20Logback/notes.md)
 - [x] Implementando Logging nos Microservices com Log4J2
-- [x] Acesso Código Fonte - 4
+- [x] [Acesso Código Fonte](./assets/Spring%20Logging/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### API Composition Pattern e Synchronous Communication
+### [API Composition Pattern e Synchronous Communication](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/)
 
-- [x] Conceitos de API Composition Pattern
+- [x] [Conceitos de API Composition Pattern](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/Conceitos%20de%20API%20Composition%20Pattern/notes.md)
 - [x] Mapear Relacionamentos para Comunicação entre Microservices
-- [x] API Composition Pattern - Preparar Métodos GetAll
+- [x] [API Composition Pattern - Preparar Métodos GetAll](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/API%20Composition%20Pattern%20-%20Preparar%20M%C3%A9todos%20GetAll/notes.md)
 - [x] API Composition Pattern em Authuser Microservice – Parte 01
-- [x] API Composition Pattern em Authuser Microservice – Parte 02
-- [x] API Composition Pattern em Course Microservice
-- [x] Comunicação Síncrona Entre Microservices - Layout e Fluxos (Ferramentas)
+- [x] [API Composition Pattern em Authuser Microservice – Parte 02](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/API%20Composition%20Pattern%20em%20Authuser%20Microservice%20%E2%80%93%20Parte%2002/notes.md)
+- [x] [API Composition Pattern em Course Microservice](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/API%20Composition%20Pattern%20em%20Course%20Microservice/notes.md)
+- [x] [Comunicação Síncrona Entre Microservices - Layout e Fluxos (Ferramentas)](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/Comunica%C3%A7%C3%A3o%20S%C3%ADncrona%20Entre%20Microservices%20-%20Layout%20e%20Fluxos%20(Ferramentas)/notes.md)
 - [x] Comunicação Síncrona - Inscrição de User em Course - Parte 1
 - [x] Comunicação Síncrona - Inscrição de User em Course - Parte 2
 - [x] Comunicação Síncrona - Inscrição de User em Course - Parte 3
@@ -101,16 +101,16 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Tipo User Instructor para Criar Courses
 - [x] Validação Customizada - Custom Validation
 - [x] Comunicação Síncrona - Preparação de Deleção Entre Microservices
-- [x] Acesso Código Fonte - 5
-- [x] Postman Collection - 1
+- [x] [Acesso Código Fonte](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/Acesso%20C%C3%B3digo%20Fonte/notes.md)
+- [x] [Postman Collection](./assets/API%20Composition%20Pattern%20e%20Synchronous%20Communication/Postman%20Collection/notes.md)
 
-### Cross Cutting Service Registry Discovery Pattern
+### [Cross Cutting Service Registry Discovery Pattern](./assets/Cross%20Cutting%20Service%20Registry%20Discovery%20Pattern/)
 
-- [x] Conceitos de Service Registry Discovery Pattern
+- [x] [Conceitos de Service Registry Discovery Pattern](./assets/Cross%20Cutting%20Service%20Registry%20Discovery%20Pattern/Conceitos%20de%20Service%20Registry%20Discovery%20Pattern/notes.md)
 - [x] Criar Service Registry com Spring Cloud Netflix Eureka
-- [x] Eureka Clients nos Microservices de Negócio
+- [x] [Eureka Clients nos Microservices de Negócio](./assets/Cross%20Cutting%20Service%20Registry%20Discovery%20Pattern/Eureka%20Clients%20nos%20Microservices%20de%20Neg%C3%B3cio/notes.md)
 - [x] Comunicações Síncronas com Client-side Discovery Pattern
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20Service%20Registry%20Discovery%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
 ### Cross Cutting API Gateway Pattern
 
