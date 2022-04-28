@@ -112,14 +112,14 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Comunicações Síncronas com Client-side Discovery Pattern
 - [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20Service%20Registry%20Discovery%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### Cross Cutting API Gateway Pattern
+### [Cross Cutting API Gateway Pattern](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/)
 
-- [ ] Conceitos e Arquitetura de API Gateway Pattern com Spring Cloud Gateway
-- [ ] API Gateway Pattern com Service Registry Pattern
-- [ ] Criar API Gateway Microservice com Spring Cloud Gateway
+- [x] [Conceitos e Arquitetura de API Gateway Pattern com Spring Cloud Gateway](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Conceitos%20e%20Arquitetura%20de%20API%20Gateway%20Pattern%20com%20Spring%20Cloud%20Gateway/notes.md)
+- [ ] [API Gateway Pattern com Service Registry Pattern](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/API%20Gateway%20Pattern%20com%20Service%20Registry%20Pattern/notes.md)
+- [ ] [Criar API Gateway Microservice com Spring Cloud Gateway](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Criar%20API%20Gateway%20Microservice%20com%20Spring%20Cloud%20Gateway/notes.md)
 - [ ] Configurar Gateway com Eureka Server e Roteamentos
-- [ ] Múltiplas Instancias dos Microservices com Load Balance
-- [ ] Acesso Código Fonte
+- [ ] [Múltiplas Instancias dos Microservices com Load Balance](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/M%C3%BAltiplas%20Instancias%20dos%20Microservices%20com%20Load%20Balance/notes.md)
+- [ ] [Acesso Código Fonte](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [ ] Postman Collection
 
 ### Synchronous Communication - Deleção entre Microservices
