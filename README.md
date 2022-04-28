@@ -120,7 +120,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Configurar Gateway com Eureka Server e Roteamentos](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Configurar%20Gateway%20com%20Eureka%20Server%20e%20Roteamentos/notes.md)
 - [x] [Múltiplas Instancias dos Microservices com Load Balance](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/M%C3%BAltiplas%20Instancias%20dos%20Microservices%20com%20Load%20Balance/notes.md)
 - [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [ ] [Postman Collection](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Postman%20Collection/notes.md)
+- [x] [Postman Collection](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Postman%20Collection/notes.md)
 
 ### Synchronous Communication - Deleção entre Microservices
 
