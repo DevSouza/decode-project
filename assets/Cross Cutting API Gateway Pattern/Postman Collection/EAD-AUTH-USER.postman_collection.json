@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "91f3d781-39d6-4dc3-af72-bccbe4b78902",
+		"name": "EAD-AUTH-USER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AUTH",
+			"item": [
+				{
+					"name": "SIGN UP",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"michellibrito\",\r\n    \"email\": \"contato@michellibrito.com\",\r\n    \"password\": \"123456\",\r\n    \"fullName\": \"Michelli Brito\",\r\n    \"phoneNumber\": \"11999558844\",\r\n    \"cpf\": \"105984569895\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/auth/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USER",
+			"item": [
+				{
+					"name": "GET ALL USERS",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users"
+							],
+							"query": [
+								{
+									"key": "userType",
+									"value": "STUDENT",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "creationDate,asc",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "contato@michellibrito.com",
+									"disabled": true
+								},
+								{
+									"key": "courseId",
+									"value": "e4044cf7-42e2-48f3-be03-7220f1f85d5a",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE USER",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/9743eddb-31d5-43a7-9986-e20a900d6bbd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"9743eddb-31d5-43a7-9986-e20a900d6bbd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE USER",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/f40c285e-df48-418b-96af-1ad672977b32",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"f40c285e-df48-418b-96af-1ad672977b32"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE USER",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"fullName\": \"Michelli Brito Updated\",\r\n    \"phoneNumber\": \"+5511987542587\",\r\n    \"cpf\": \"12598456985\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/9743eddb-31d5-43a7-9986-e20a900d6bbd",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"9743eddb-31d5-43a7-9986-e20a900d6bbd"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT PASSWORD",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n       \"password\": \"111444\",\r\n       \"oldPassword\": \"123456\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/9743eddb-31d5-43a7-9986-e20a900d6bbd/password",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"9743eddb-31d5-43a7-9986-e20a900d6bbd",
+								"password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT IMAGE",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"imageUrl\": \"teste-image-validated\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/9743eddb-31d5-43a7-9986-e20a900d6bbd/image",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"9743eddb-31d5-43a7-9986-e20a900d6bbd",
+								"image"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USER-COURSE",
+			"item": [
+				{
+					"name": "GET ALL COURSES BY User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/4aebe5ef-4598-405b-80fd-124628747c92/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"4aebe5ef-4598-405b-80fd-124628747c92",
+								"courses"
+							],
+							"query": [
+								{
+									"key": "size",
+									"value": "5",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "creationDate,DESC",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST USER COURSE SUBSCRIPTION",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"courseId\": \"67feed06-dcc8-4832-a57d-8cdb4118dc4d\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/users/a9551ddf-f3ea-41d8-848f-b0b481734a90/courses/subscription",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"users",
+								"a9551ddf-f3ea-41d8-848f-b0b481734a90",
+								"courses",
+								"subscription"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "INSTRUCTOR",
+			"item": [
+				{
+					"name": "POST INSTRUCTOR SUBSCRIPTION",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"21635b36-0af9-4406-990f-640df99603e4\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-authuser/instructors/subscription",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-authuser",
+								"instructors",
+								"subscription"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

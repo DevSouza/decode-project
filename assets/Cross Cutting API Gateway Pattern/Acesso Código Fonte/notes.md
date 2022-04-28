@@ -4,6 +4,6 @@ Observação: Os códigos versionados com as branchs divididas por módulos enco
 
 ### Materiais Complementares
 
-[api-gateway.zip](./api-gateway.zip)
-[authuser.zip](./authuser.zip)
-[course.zip](./course.zip)
+[api-gateway.zip](./api-gateway.zip)  
+[authuser.zip](./authuser.zip)  
+[course.zip](./course.zip)  
