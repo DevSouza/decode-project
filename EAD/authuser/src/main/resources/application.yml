@@ -30,7 +30,7 @@ logging:  level:    com.ead: TRACE
 ead:
   api:
     url:
-      course: 'http://ead-course-service'
+      course: 'http://ead-course-service/ead-course'
       
 eureka:
   client:
