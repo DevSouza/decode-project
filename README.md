@@ -122,9 +122,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Cross%20Cutting%20API%20Gateway%20Pattern/Postman%20Collection/notes.md)
 
-### Synchronous Communication - Deleção entre Microservices
+### [Synchronous Communication - Deleção entre Microservices](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/)
 
-- [ ] Deleção entre Microservices - parte 1
+- [x] [Deleção entre Microservices - parte 1](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/Dele%C3%A7%C3%A3o%20entre%20Microservices%20-%20parte%201/notes.md)
 - [ ] Deleção entre Microservices - parte 2
 - [ ] Acesso Código Fonte
 
