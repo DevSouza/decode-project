@@ -131,7 +131,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Microservices Patterns para Asynchronous Communication](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/)
 
 - [x] [Broker Pattern e Mediator Pattern (Estudo de caso - Homologação de Fornecedores)](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/Broker%20Pattern%20e%20Mediator%20Pattern%20(Estudo%20de%20caso%20-%20Homologa%C3%A7%C3%A3o%20de%20Fornecedores)/notes.md)
-- [ ] RabbitMQ, Tipos de Exchanges, Filas Erros e Políticas de Retentativas
+- [x] [RabbitMQ, Tipos de Exchanges, Filas Erros e Políticas de Retentativas](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/RabbitMQ%2C%20Tipos%20de%20Exchanges%2C%20Filas%20Erros%20e%20Pol%C3%ADticas%20de%20Retentativas/notes.md)
 - [ ] Event-Driven Pattern - Event Notification Pattern e Event-Carried State Transfer Pattern
 - [ ] Saga Pattern por Coreografia ou Orquestração
 
