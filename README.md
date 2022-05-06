@@ -128,9 +128,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Deleção entre Microservices - parte 2](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/Dele%C3%A7%C3%A3o%20entre%20Microservices%20-%20parte%202/notes.md)
 - [x] [Acesso Código Fonte](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### Microservices Patterns para Asynchronous Communication
+### [Microservices Patterns para Asynchronous Communication](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/)
 
-- [ ] Broker Pattern e Mediator Pattern (Estudo de caso - Homologação de Fornecedores)
+- [x] [Broker Pattern e Mediator Pattern (Estudo de caso - Homologação de Fornecedores)](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/Broker%20Pattern%20e%20Mediator%20Pattern%20(Estudo%20de%20caso%20-%20Homologa%C3%A7%C3%A3o%20de%20Fornecedores)/notes.md)
 - [ ] RabbitMQ, Tipos de Exchanges, Filas Erros e Políticas de Retentativas
 - [ ] Event-Driven Pattern - Event Notification Pattern e Event-Carried State Transfer Pattern
 - [ ] Saga Pattern por Coreografia ou Orquestração
