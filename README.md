@@ -125,7 +125,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Synchronous Communication - Deleção entre Microservices](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/)
 
 - [x] [Deleção entre Microservices - parte 1](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/Dele%C3%A7%C3%A3o%20entre%20Microservices%20-%20parte%201/notes.md)
-- [ ] Deleção entre Microservices - parte 2
+- [x] [Deleção entre Microservices - parte 2](./assets/Synchronous%20Communication%20-%20Dele%C3%A7%C3%A3o%20entre%20Microservices/Dele%C3%A7%C3%A3o%20entre%20Microservices%20-%20parte%202/notes.md)
 - [ ] Acesso Código Fonte
 
 ### Microservices Patterns para Asynchronous Communication
