@@ -133,7 +133,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Broker Pattern e Mediator Pattern (Estudo de caso - Homologação de Fornecedores)](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/Broker%20Pattern%20e%20Mediator%20Pattern%20(Estudo%20de%20caso%20-%20Homologa%C3%A7%C3%A3o%20de%20Fornecedores)/notes.md)
 - [x] [RabbitMQ, Tipos de Exchanges, Filas Erros e Políticas de Retentativas](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/RabbitMQ%2C%20Tipos%20de%20Exchanges%2C%20Filas%20Erros%20e%20Pol%C3%ADticas%20de%20Retentativas/notes.md)
 - [x] [Event-Driven Pattern - Event Notification Pattern e Event-Carried State Transfer Pattern](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/Event-Driven%20Pattern%20-%20Event%20Notification%20Pattern%20e%20Event-Carried%20State%20Transfer%20Pattern/notes.md)
-- [ ] Saga Pattern por Coreografia ou Orquestração
+- [x] [Saga Pattern por Coreografia ou Orquestração](./assets/Microservices%20Patterns%20para%20Asynchronous%20Communication/Saga%20Pattern%20por%20Coreografia%20ou%20Orquestra%C3%A7%C3%A3o/notes.md)
 
 ### Event Driven com Event-Carried State Transfer Pattern e Broker Pattern
 
