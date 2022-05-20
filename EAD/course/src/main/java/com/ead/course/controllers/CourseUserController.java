@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ead.course.dtos.SubscriptionDto;
 import com.ead.course.models.CourseModel;
 import com.ead.course.services.CourseService;
+import com.ead.course.services.UserService;
+import com.ead.course.specifications.SpecificationTemplete;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
@@ -27,9 +29,13 @@ public class CourseUserController {
 	
 	@Autowired
 	CourseService courseService;
+	
+	@Autowired
+	UserService userService;
 
 	@GetMapping("/courses/{courseId}/users")
 	public ResponseEntity<?> getAllUsersByCourse(
+			SpecificationTemplete.UserSpec spec,
 			@PageableDefault(sort = "userId") Pageable pageable,
 			@PathVariable UUID courseId) {
 		
@@ -41,7 +47,9 @@ public class CourseUserController {
 					.body("Course Not Found");
 		}
 		
-		return ResponseEntity.status(HttpStatus.OK).body("");
+		return ResponseEntity
+				.status(HttpStatus.OK)
+				.body(userService.findAll(SpecificationTemplete.userCourseId(courseId).and(spec), pageable));
 	}
 	
 	@PostMapping("/courses/{courseId}/users/subscription")

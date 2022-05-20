@@ -138,7 +138,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Event Driven com Event-Carried State Transfer Pattern e Broker Pattern](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/)
 
 - [x] [Preparar EAD para Comunicação Assíncrona](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Preparar%20EAD%20para%20Comunica%C3%A7%C3%A3o%20Ass%C3%ADncrona/notes.md)
-- [ ] Mapear State Transfer Pattern com Replicação Parcial de Dados
+- [x] [Mapear State Transfer Pattern com Replicação Parcial de Dados](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Mapear%20State%20Transfer%20Pattern%20com%20Replica%C3%A7%C3%A3o%20Parcial%20de%20Dados/notes.md)
 - [ ] Iniciando com RabbitMQ e Spring AMQP
 - [ ] Criar Publisher e Publicar Event State Transfer (CREATE)
 - [ ] Criar Consumer e Receber Event State Tranfer
