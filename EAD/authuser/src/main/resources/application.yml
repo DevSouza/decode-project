@@ -20,7 +20,12 @@ spring:
     properties:
       hibernate:
         show_sql: true
-  output:    ansi:      enabled: ALWAYS      
+  output:    ansi:      enabled: ALWAYS
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
        
 logging:  level:    com.ead: TRACE
     root: INFO
