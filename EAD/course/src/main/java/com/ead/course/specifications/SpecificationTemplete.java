@@ -72,13 +72,13 @@ public class SpecificationTemplete {
 	}
 	
 	public static Specification<CourseModel> courseUserId(final UUID userId) {
-		return (root, query, cb) -> {
-			query.distinct(true);
-			Root<CourseModel> course = root;
-			Root<UserModel> user = query.from(UserModel.class);
-			Expression<Collection<CourseModel>> usersCourses = user.get("courses");
-			return cb.and(cb.equal(course.get("userId"), userId), cb.isMember(course, usersCourses));
-		};
-	}
+        return (root, query, cb) -> {
+            query.distinct(true);
+            Root<CourseModel> course = root;
+            Root<UserModel> user = query.from(UserModel.class);
+            Expression<Collection<CourseModel>> usersCourses = user.get("courses");
+            return cb.and(cb.equal(user.get("userId"), userId), cb.isMember(course, usersCourses));
+        };
+    }
 	
 }
