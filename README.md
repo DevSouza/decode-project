@@ -141,7 +141,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Mapear State Transfer Pattern com Replicação Parcial de Dados](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Mapear%20State%20Transfer%20Pattern%20com%20Replica%C3%A7%C3%A3o%20Parcial%20de%20Dados/notes.md)
 - [x] [Iniciando com RabbitMQ e Spring AMQP](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Iniciando%20com%20RabbitMQ%20e%20Spring%20AMQP/notes.md)
 - [x] [Criar Publisher e Publicar Event State Transfer (CREATE)](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Criar%20Publisher%20e%20Publicar%20Event%20State%20Transfer%20(CREATE)/notes.md)
-- [ ] Criar Consumer e Receber Event State Tranfer
+- [x] [Criar Consumer e Receber Event State Tranfer](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Criar%20Consumer%20e%20Receber%20Event%20State%20Tranfer/notes.md)
 - [ ] Publicar Event State Transfer (UPDATE e DELETE)
 - [ ] Fluxo Híbrido de Comunicação Síncrona e Assíncrona
 - [ ] Delete Cascade com State Transfer Pattern
