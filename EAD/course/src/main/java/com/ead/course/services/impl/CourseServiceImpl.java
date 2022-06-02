@@ -64,5 +64,16 @@ public class CourseServiceImpl implements CourseService {
 	public Page<CourseModel> findAll(Specification<CourseModel> spec, Pageable pageable) {
 		return courseRepository.findAll(spec, pageable);
 	}
+
+	@Override
+	public boolean existsByCourseAndUser(UUID courseId, UUID userId) {
+		return courseRepository.existsByCourseAndUser(courseId, userId);
+	}
+
+	@Override
+	@Transactional
+	public void saveSubscriptionUserInCourse(UUID courseId, UUID userId) {
+		courseRepository.saveCourseUser(courseId, userId);
+	}
 	
 }
