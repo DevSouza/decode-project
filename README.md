@@ -145,7 +145,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Publicar Event State Transfer (UPDATE e DELETE)](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Publicar%20Event%20State%20Transfer%20(UPDATE%20e%20DELETE)/notes.md)
 - [x] [Fluxo Híbrido de Comunicação Síncrona e Assíncrona](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Fluxo%20H%C3%ADbrido%20de%20Comunica%C3%A7%C3%A3o%20S%C3%ADncrona%20e%20Ass%C3%ADncrona/notes.md)
 - [x] [Delete Cascade com State Transfer Pattern](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Delete%20Cascade%20com%20State%20Transfer%20Pattern/notes.md)
-- [ ] Postman Collection
+- [x] [Postman Collection](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Postman%20Collection/notes.md)
 
 ### Reliability - Circuit Breaker Pattern
 

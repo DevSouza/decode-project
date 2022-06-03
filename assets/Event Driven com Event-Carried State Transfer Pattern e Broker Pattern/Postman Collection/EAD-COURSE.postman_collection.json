@@ -1,0 +1,574 @@
+{
+	"info": {
+		"_postman_id": "b9becd19-9e17-4232-954e-580001966437",
+		"name": "EAD-COURSE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "COURSES",
+			"item": [
+				{
+					"name": "GET ALL COURSES",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "07e909e2-33b0-4a62-8e68-65b2d867cc54",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "creationDate,ASC",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Curso",
+									"disabled": true
+								},
+								{
+									"key": "courseStatus",
+									"value": "INPROGRESS",
+									"disabled": true
+								},
+								{
+									"key": "courseLevel",
+									"value": "BEGINNER",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE COURSE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/868972ad-0231-48c6-81c4-ecdeb1114391",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"868972ad-0231-48c6-81c4-ecdeb1114391"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST COURSE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Curso Spring Security\",\r\n    \"description\": \"Crie Autenticação com Spring Security em Microservices\",\r\n    \"userInstructor\": \"ed235441-89e3-4de5-87af-0cfb2ac8a9d8\",\r\n    \"courseStatus\": \"CONCLUDED\",\r\n    \"courseLevel\": \"BEGINNER\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE COURSE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/868972ad-0231-48c6-81c4-ecdeb1114391",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"868972ad-0231-48c6-81c4-ecdeb1114391"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE COURSE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Curso Spring Security 2.0\",\r\n    \"description\": \"Crie Autenticação com Spring Security em Microservices\",\r\n    \"userInstructor\": \"ed235441-89e3-4de5-87af-0cfb2ac8a9d8\",\r\n    \"courseStatus\": \"CONCLUDED\",\r\n    \"courseLevel\": \"BEGINNER\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/868972ad-0231-48c6-81c4-ecdeb1114391",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"868972ad-0231-48c6-81c4-ecdeb1114391"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MODULES",
+			"item": [
+				{
+					"name": "POST MODULE",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Modulo 1\",\r\n    \"description\": \"Inserindo Spring Security e Configurando Projeto\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/67feed06-dcc8-4832-a57d-8cdb4118dc4d/modules",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"67feed06-dcc8-4832-a57d-8cdb4118dc4d",
+								"modules"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ALL MODULES",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/67feed06-dcc8-4832-a57d-8cdb4118dc4d/modules",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"67feed06-dcc8-4832-a57d-8cdb4118dc4d",
+								"modules"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "creationDate,ASC",
+									"disabled": true
+								},
+								{
+									"key": "title",
+									"value": "Modulo",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "2",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE MODULE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/868972ad-0231-48c6-81c4-ecdeb1114391/modules/f8b4e578-919f-46b7-a7ff-2eddcc663ec0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"868972ad-0231-48c6-81c4-ecdeb1114391",
+								"modules",
+								"f8b4e578-919f-46b7-a7ff-2eddcc663ec0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE MODULE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/868972ad-0231-48c6-81c4-ecdeb1114391/modules/f8b4e578-919f-46b7-a7ff-2eddcc663ec0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"868972ad-0231-48c6-81c4-ecdeb1114391",
+								"modules",
+								"f8b4e578-919f-46b7-a7ff-2eddcc663ec0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT MODULE",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/ecmascript",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"Inserindo Spring Security e Configurando Projeto - Atualizado\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/868972ad-0231-48c6-81c4-ecdeb1114391/modules/f8b4e578-919f-46b7-a7ff-2eddcc663ec0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"868972ad-0231-48c6-81c4-ecdeb1114391",
+								"modules",
+								"f8b4e578-919f-46b7-a7ff-2eddcc663ec0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LESSONS",
+			"item": [
+				{
+					"name": "GET ALL LESSONS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/modules/7597ae07-dc5f-4e96-b4ae-ac5bf0a10205/lessons?sort=creationDate,DESC&title=Aula 2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"modules",
+								"7597ae07-dc5f-4e96-b4ae-ac5bf0a10205",
+								"lessons"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "creationDate,DESC"
+								},
+								{
+									"key": "title",
+									"value": "Aula 2"
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST LESSON",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Aula 1 - Inserindo dependência.\",\r\n    \"description\": \"Inserindo depêndencia do arquivo pom.xml\",\r\n    \"videoUrl\": \"https://www.youtube.com/watch?v=LW-N44fZ1wk\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/modules/0ac8a00e-4615-4ca1-b110-277d6d266ce0/lessons",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"modules",
+								"0ac8a00e-4615-4ca1-b110-277d6d266ce0",
+								"lessons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ONE LESSON",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/modules/be50d503-9ba7-4733-af5c-5e47bbe482de/lessons/0cb0b06c-2492-4a0c-a06a-16aadcc5c163",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"modules",
+								"be50d503-9ba7-4733-af5c-5e47bbe482de",
+								"lessons",
+								"0cb0b06c-2492-4a0c-a06a-16aadcc5c163"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE LESSON",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/modules/be50d503-9ba7-4733-af5c-5e47bbe482de/lessons/0cb0b06c-2492-4a0c-a06a-16aadcc5c163",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"modules",
+								"be50d503-9ba7-4733-af5c-5e47bbe482de",
+								"lessons",
+								"0cb0b06c-2492-4a0c-a06a-16aadcc5c163"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT LESSON",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"videoUrl\": \"https://www.youtube.com/watch?v=LW-N44fZ1wkytutu\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/modules/be50d503-9ba7-4733-af5c-5e47bbe482de/lessons/0cb0b06c-2492-4a0c-a06a-16aadcc5c163",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"modules",
+								"be50d503-9ba7-4733-af5c-5e47bbe482de",
+								"lessons",
+								"0cb0b06c-2492-4a0c-a06a-16aadcc5c163"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "COURSE-USER",
+			"item": [
+				{
+					"name": "GET ALL USERS BY Course",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/67feed06-dcc8-4832-a57d-8cdb4118dc4d/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"67feed06-dcc8-4832-a57d-8cdb4118dc4d",
+								"users"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "creationDate,DESC",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST SUBSCRIPTION User in Course",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"4aebe5ef-4598-405b-80fd-124628747c92\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/ead-course/courses/67feed06-dcc8-4832-a57d-8cdb4118dc4d/users/subscription",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ead-course",
+								"courses",
+								"67feed06-dcc8-4832-a57d-8cdb4118dc4d",
+								"users",
+								"subscription"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
