@@ -147,9 +147,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Delete Cascade com State Transfer Pattern](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Delete%20Cascade%20com%20State%20Transfer%20Pattern/notes.md)
 - [x] [Postman Collection](./assets/Event%20Driven%20com%20Event-Carried%20State%20Transfer%20Pattern%20e%20Broker%20Pattern/Postman%20Collection/notes.md)
 
-### Reliability - Circuit Breaker Pattern
+### [Reliability - Circuit Breaker Pattern](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/)
 
-- [ ] Conceitos de Circuit Breaker Pattern e Spring Cloud Circuit Breaker
+- [x] [Conceitos de Circuit Breaker Pattern e Spring Cloud Circuit Breaker](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Conceitos%20de%20Circuit%20Breaker%20Pattern%20e%20Spring%20Cloud%20Circuit%20Breaker/notes.md)
 - [ ] Implementar Retry Resilience4j e Configurar Timeout
 - [ ] Implementar Circuit Breaker Resilience4j
 - [ ] Acesso Código Fonte
