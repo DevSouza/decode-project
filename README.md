@@ -152,7 +152,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Conceitos de Circuit Breaker Pattern e Spring Cloud Circuit Breaker](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Conceitos%20de%20Circuit%20Breaker%20Pattern%20e%20Spring%20Cloud%20Circuit%20Breaker/notes.md)
 - [x] [Implementar Retry Resilience4j e Configurar Timeout](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Implementar%20Retry%20Resilience4j%20e%20Configurar%20Timeout/notes.md)
 - [x] [Implementar Circuit Breaker Resilience4j](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Implementar%20Circuit%20Breaker%20Resilience4j/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
 ### Cross Cutting - Global Config Management Pattern
 
