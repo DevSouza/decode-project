@@ -150,7 +150,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Reliability - Circuit Breaker Pattern](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/)
 
 - [x] [Conceitos de Circuit Breaker Pattern e Spring Cloud Circuit Breaker](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Conceitos%20de%20Circuit%20Breaker%20Pattern%20e%20Spring%20Cloud%20Circuit%20Breaker/notes.md)
-- [ ] Implementar Retry Resilience4j e Configurar Timeout
+- [x] [Implementar Retry Resilience4j e Configurar Timeout](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Implementar%20Retry%20Resilience4j%20e%20Configurar%20Timeout/notes.md)
 - [ ] Implementar Circuit Breaker Resilience4j
 - [ ] Acesso Código Fonte
 
