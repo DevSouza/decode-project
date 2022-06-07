@@ -154,9 +154,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Implementar Circuit Breaker Resilience4j](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Implementar%20Circuit%20Breaker%20Resilience4j/notes.md)
 - [x] [Acesso Código Fonte](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### Cross Cutting - Global Config Management Pattern
+### [Cross Cutting - Global Config Management Pattern](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/)
 
-- [ ] Conceitos Global Config Pattern e Spring Cloud Config
+- [x] [Conceitos Global Config Pattern e Spring Cloud Config](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Conceitos%20Global%20Config%20Pattern%20e%20Spring%20Cloud%20Config/notes.md)
 - [ ] Criar Config Server Com Spring Cloud Config e repositório Git
 - [ ] Configurar Config Client em Authuser Microservice
 - [ ] Atualizar Propriedades em Tempo de Execução com @RefreshScope e Spring Actuator
