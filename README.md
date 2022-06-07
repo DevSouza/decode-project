@@ -158,7 +158,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 - [x] [Conceitos Global Config Pattern e Spring Cloud Config](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Conceitos%20Global%20Config%20Pattern%20e%20Spring%20Cloud%20Config/notes.md)
 - [x] [Criar Config Server Com Spring Cloud Config e repositório Git](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Criar%20Config%20Server%20Com%20Spring%20Cloud%20Config%20e%20reposit%C3%B3rio%20Git/notes.md)
-- [ ] Configurar Config Client em Authuser Microservice
+- [x] Configurar Config Client em Authuser Microservice
 - [ ] Atualizar Propriedades em Tempo de Execução com @RefreshScope e Spring Actuator
 - [ ] Configurar Config Client em Course Microservice
 - [ ] Acesso Código Fonte

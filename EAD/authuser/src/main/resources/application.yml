@@ -1,63 +1,66 @@
-server:
-  port: 8087
-  servlet:
-    context-path: '/ead-authuser/'
-  forward-headers-strategy: framework # FIX Url Hateoas
-
+#server:
+#  port: 8087
+#  servlet:
+#    context-path: '/ead-authuser/'
+#  forward-headers-strategy: framework # FIX Url Hateoas
+#
 spring:
   application:
     name: ead-authuser-service
-  datasource:
-    url: jdbc:postgresql://localhost:5432/ead-authuser-v2
-    username: postgres
-    password: 3301
-  jpa:
-    hibernate:
-      ddl-auto: update
-      dialect: org.hibernate.dialect.PostgreSQLDialect
-      jdbc:
-        lob.non-contextual-creation: true
-    properties:
-      hibernate:
-        show_sql: true
-  output:    ansi:      enabled: ALWAYS
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: admin
-       
-logging:  level:    com.ead: TRACE
-    root: INFO
-    org.springframework.web: INFO
-    org.hibernate: INFO
-    
-ead:
-  api:
-    url:
-      course: 'http://ead-course-service/ead-course'
-  broker:
-    exchange:
-      userEvent: ead.userevent
-      
-eureka:
-  client:
-    service-url:
-      defaultZone: 'http://localhost:8761/eureka'
-  instance:
-    hostname: localhost
-    
-resilience4j:
-  circuitbreaker:    instances:      circuitbreakerInstance:
-        slidingWindowSize: 30
-        permittedNumberOfCallsInHalfOpenState: 2
-        slidingWindowType: TIME_BASED
-        minimumNumberOfCalls: 2
-        waitDurationInOpenState: 30s
-        failureRateThreshold: 80
-  retry:    instances:      retryInstance:
-        max-attempts: 3
-        wait-duration: 5s
-    
-    
-    
+  config:
+    import: 'configserver:' # 'optional:configserver:' para que quando o ms ead-config-server estiver fora do ar usar as configurações locais
+  cloud:    config:      discovery:        serviceId: ead-config-server
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/ead-authuser-v2
+#    username: postgres
+#    password: 3301
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#      dialect: org.hibernate.dialect.PostgreSQLDialect
+#      jdbc:
+#        lob.non-contextual-creation: true
+#    properties:
+#      hibernate:
+#        show_sql: true
+#  output:#    ansi:#      enabled: ALWAYS
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: admin
+#    password: admin
+#       
+#logging:#  level:#    com.ead: TRACE
+#    root: INFO
+#    org.springframework.web: INFO
+#    org.hibernate: INFO
+#    
+#ead:
+#  api:
+#    url:
+#      course: 'http://ead-course-service/ead-course'
+#  broker:
+#    exchange:
+#      userEvent: ead.userevent
+#      
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: 'http://localhost:8761/eureka'
+#  instance:
+#    hostname: localhost
+#    
+#resilience4j:
+#  circuitbreaker:#    instances:#      circuitbreakerInstance:
+#        slidingWindowSize: 30
+#        permittedNumberOfCallsInHalfOpenState: 2
+#        slidingWindowType: TIME_BASED
+#        minimumNumberOfCalls: 2
+#        waitDurationInOpenState: 30s
+#        failureRateThreshold: 80
+#  retry:#    instances:#      retryInstance:
+#        max-attempts: 3
+#        wait-duration: 5s
+#    
+#    
+#    
