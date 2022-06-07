@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  
+spring:  application:    name: ead-config-server
+  cloud:    config:      server:        git:          uri: 'https://github.com/DevSouza/decoder-project.git'
+          search-paths: 'EAD/ead-config-server-repo'
+          default-label: master
+          username: devsouza
+          password: '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'
+eureka:  client:    service-url:      defaultZone: 'http://localhost:8761/eureka'
+  instance:    hostname: localhost
