@@ -162,7 +162,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Atualizar Propriedades em Tempo de Execução com @RefreshScope e Spring Actuator
 - [x] Configurar Config Client em Course Microservice
 - [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [ ] Postman Collection
+- [x] [Postman Collection](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Postman%20Collection/notes.md)
 
 ### Asynchronous Communication via Command Messages
 

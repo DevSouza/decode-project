@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "242acec7-2506-4733-ab29-7fa6cb33006b",
+		"name": "EAD-CONFIG-SERVER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AUTHUSER Configs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/ead-authuser-service/main",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"ead-authuser-service",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APPLICATION Global Configs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/application/main",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"application",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REFRESH ACTUATOR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/ead-authuser/actuator/refresh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"ead-authuser",
+						"actuator",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TEST REFRESHSCOPE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/ead-authuser/refreshscope",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"ead-authuser",
+						"refreshscope"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HEALTH ACTUATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/ead-authuser/actuator/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"ead-authuser",
+						"actuator",
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COURSE Configs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/ead-course-service/main",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"ead-course-service",
+						"main"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NOTIFICATION Configs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/ead-notification-service/main",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"ead-notification-service",
+						"main"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
