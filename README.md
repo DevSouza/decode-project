@@ -164,9 +164,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Postman%20Collection/notes.md)
 
-### Asynchronous Communication via Command Messages
+### [Asynchronous Communication via Command Messages](./assets/Asynchronous%20Communication%20via%20Command%20Messages/)
 
-- [ ] Preparar Asynchronous Communication via Commands em Notification Microservice
+- [x] [Preparar Asynchronous Communication via Commands em Notification Microservice](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Preparar%20Asynchronous%20Communication%20via%20Commands%20em%20Notification%20Microservice/notes.md)
 - [ ] Criar Exchange Topic, definir Queue e Bindings
 - [ ] Criar Publisher Command Message
 - [ ] Criar Endpoints para visualizar e atualizar Notifications
