@@ -167,7 +167,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Asynchronous Communication via Command Messages](./assets/Asynchronous%20Communication%20via%20Command%20Messages/)
 
 - [x] [Preparar Asynchronous Communication via Commands em Notification Microservice](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Preparar%20Asynchronous%20Communication%20via%20Commands%20em%20Notification%20Microservice/notes.md)
-- [ ] Criar Exchange Topic, definir Queue e Bindings
+- [x] Criar Exchange Topic, definir Queue e Bindings
 - [ ] Criar Publisher Command Message
 - [ ] Criar Endpoints para visualizar e atualizar Notifications
 - [ ] Preparar ConfigServer e novas rotas no Gateway para Notification Microservice
