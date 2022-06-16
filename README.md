@@ -171,7 +171,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Criar Publisher Command Message
 - [x] Criar Endpoints para visualizar e atualizar Notifications
 - [x] [Preparar ConfigServer e novas rotas no Gateway para Notification Microservice](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Preparar%20ConfigServer%20e%20novas%20rotas%20no%20Gateway%20para%20Notification%20Microservice/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [ ] Postman Collection
 
 ### Basic Authentication em Service Registry e Config Server
