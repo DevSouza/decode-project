@@ -178,7 +178,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 - [x] [Implementar Basic Authentication no Service Registry](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/Implementar%20Basic%20Authentication%20no%20Service%20Registry/notes.md)
 - [x] Registrar Microservices no Service Registry com Autenticação
-- [ ] Implementar Basic Authentication no Config Server
+- [x] Implementar Basic Authentication no Config Server
 - [ ] Acesso Código Fonte
 
 ### Authentication e Authorization com Basic Authentication
