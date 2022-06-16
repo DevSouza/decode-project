@@ -9,6 +9,9 @@ spring:  application:    name: ead-config-server
           password: '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'
           
 ead:
+  configServer:
+    username: configserver
+    password: 'ead123cs'
   serviceRegistry:
     username: serviceregistry
     password: 'ead123sr'
