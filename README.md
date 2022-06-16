@@ -174,9 +174,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Postman%20Collection/notes.md)
 
-### Basic Authentication em Service Registry e Config Server
+### [Basic Authentication em Service Registry e Config Server](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/)
 
-- [ ] Implementar Basic Authentication no Service Registry
+- [x] [Implementar Basic Authentication no Service Registry](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/Implementar%20Basic%20Authentication%20no%20Service%20Registry/notes.md)
 - [ ] Registrar Microservices no Service Registry com Autenticação
 - [ ] Implementar Basic Authentication no Config Server
 - [ ] Acesso Código Fonte
