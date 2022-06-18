@@ -190,9 +190,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Postman%20Collection/notes.md)
 
-### Authentication e Authorization com Json Web Token (JWT)
+### [Authentication e Authorization com Json Web Token (JWT)](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/)
 
-- [ ] Conceitos e Estrutura do JWT (Json Web Token)
+- [x] [Conceitos e Estrutura do JWT (Json Web Token)](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Conceitos%20e%20Estrutura%20do%20JWT%20(Json%20Web%20Token)/notes.md)
 - [ ] Conceitos e Fluxos do Spring Security com JWT
 - [ ] Implementar JwtProvider para Gerar Tokens e Authentication Endpoint
 - [ ] Implementar Validation Tokens e Authorization com JWT
