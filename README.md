@@ -187,7 +187,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Basic Authentication em AuthUser com Roles](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Basic%20Authentication%20em%20AuthUser%20com%20Roles/notes.md)
 - [x] Users Roles com Encoder Password em AuthUser
 - [x] [Implementar UserDetails e UserDetailsService para Basic Auth com Database](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Implementar%20UserDetails%20e%20UserDetailsService%20para%20Basic%20Auth%20com%20Database/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [ ] Postman Collection
 
 ### Authentication e Authorization com Json Web Token (JWT)
