@@ -186,7 +186,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Conceitos e Fluxo do Spring Security para Basic Authentication](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Conceitos%20e%20Fluxo%20do%20Spring%20Security%20para%20Basic%20Authentication/notes.md)
 - [x] [Basic Authentication em AuthUser com Roles](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Basic%20Authentication%20em%20AuthUser%20com%20Roles/notes.md)
 - [x] Users Roles com Encoder Password em AuthUser
-- [ ] Implementar UserDetails e UserDetailsService para Basic Auth com Database
+- [x] [Implementar UserDetails e UserDetailsService para Basic Auth com Database](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Implementar%20UserDetails%20e%20UserDetailsService%20para%20Basic%20Auth%20com%20Database/notes.md)
 - [ ] Acesso Código Fonte
 - [ ] Postman Collection
 
