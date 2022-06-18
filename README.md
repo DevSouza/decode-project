@@ -181,9 +181,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Implementar Basic Authentication no Config Server
 - [x] [Acesso Código Fonte](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### Authentication e Authorization com Basic Authentication
+### [Authentication e Authorization com Basic Authentication](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/)
 
-- [ ] Conceitos e Fluxo do Spring Security para Basic Authentication
+- [x] [Conceitos e Fluxo do Spring Security para Basic Authentication](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Conceitos%20e%20Fluxo%20do%20Spring%20Security%20para%20Basic%20Authentication/notes.md)
 - [ ] Basic Authentication em AuthUser com Roles
 - [ ] Users Roles com Encoder Password em AuthUser
 - [ ] Implementar UserDetails e UserDetailsService para Basic Auth com Database
