@@ -202,7 +202,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### Cross-Cutting Authentication e Authorization com JWT em Microservices
 
 - [x] Authorization com Roles em Microservices
-- [ ] Generate JWT com Subject e Roles
+- [x] Generate JWT com Subject e Roles
 - [ ] Access Token Pattern in Notification Microservice
 - [ ] Access Token Pattern in Course Microservice
 - [ ] Access Token na Comunicação Síncrona entre Microservices
