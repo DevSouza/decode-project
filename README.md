@@ -196,7 +196,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Conceitos e Fluxos do Spring Security com JWT](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Conceitos%20e%20Fluxos%20do%20Spring%20Security%20com%20JWT/notes.md)
 - [x] [Implementar JwtProvider para Gerar Tokens e Authentication Endpoint](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Implementar%20JwtProvider%20para%20Gerar%20Tokens%20e%20Authentication%20Endpoint/notes.md)
 - [x] [Implementar Validation Tokens e Authorization com JWT](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Implementar%20Validation%20Tokens%20e%20Authorization%20com%20JWT/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [ ] Postman Collection
 
 ### Cross-Cutting Authentication e Authorization com JWT em Microservices
