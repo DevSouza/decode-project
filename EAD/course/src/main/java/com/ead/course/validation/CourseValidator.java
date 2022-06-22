@@ -44,6 +44,7 @@ public class CourseValidator implements Validator {
 		
 		if(!userModelOptional.isPresent()) {
 			errors.rejectValue("userInstructor", "UserInstructorError", "Instructor not found.");
+			return;
 		}
 		
 		

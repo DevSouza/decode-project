@@ -15,6 +15,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -44,6 +45,7 @@ public class LessonController {
 	@Autowired
 	ModuleService moduleService;
 	
+	@PreAuthorize("hasAnyRole('INSTRUCTOR')")
 	@PostMapping("/modules/{moduleId}/lessons")
 	public ResponseEntity<?> saveLesson(@RequestBody @Valid LessonDto lessonDto, @PathVariable("moduleId") UUID moduleId) {
 		log.debug("POST saveLesson lessonDto received {} ", lessonDto.toString());
@@ -70,6 +72,7 @@ public class LessonController {
 				.body(lessonModel);
 	}
 	
+	@PreAuthorize("hasAnyRole('INSTRUCTOR')")
 	@DeleteMapping("/modules/{moduleId}/lessons/{lessonId}")
 	public ResponseEntity<?> deleteLesson(
 			@PathVariable("moduleId") UUID moduleId,
@@ -91,6 +94,7 @@ public class LessonController {
 				.body("Lesson deleted successfully.");
 	}
 	
+	@PreAuthorize("hasAnyRole('INSTRUCTOR')")
 	@PutMapping("/modules/{moduleId}/lessons/{lessonId}")
 	public ResponseEntity<?> updateLesson(
 			@RequestBody @Valid LessonDto lessonDto,
@@ -119,6 +123,7 @@ public class LessonController {
 				.body(lessonModel);
 	}
 	
+	@PreAuthorize("hasAnyRole('STUDENT')")
 	@GetMapping("/modules/{moduleId}/lessons")
 	public ResponseEntity<Page<LessonModel>> getAllLessons(
 			SpecificationTemplete.LessonSpec spec,
@@ -130,8 +135,9 @@ public class LessonController {
 				.body(lessonService.findAllByModule(SpecificationTemplete.lessonModuleId(moduleId), pageable));
 	}
 	
+	@PreAuthorize("hasAnyRole('STUDENT')")
 	@GetMapping("/modules/{moduleId}/lessons/{lessonId}")
-	public ResponseEntity<?> getOneModule(
+	public ResponseEntity<?> getOneLesson(
 			@PathVariable("moduleId") UUID moduleId,
 			@PathVariable("lessonId") UUID lessonId) {
 		
