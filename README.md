@@ -207,7 +207,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Access Token Pattern in Course Microservice
 - [x] Access Token na Comunicação Síncrona entre Microservices
 - [x] [Authorization Roles para Instructor](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Authorization%20Roles%20para%20Instructor/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [ ] Postman Collection
 
 ### Config Ambientes Dev e Prod e Deploy Microservices no Heroku Cloud
