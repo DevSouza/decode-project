@@ -210,9 +210,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Postman%20Collection/notes.md)
 
-### Config Ambientes Dev e Prod e Deploy Microservices no Heroku Cloud
+### [Config Ambientes Dev e Prod e Deploy Microservices no Heroku Cloud](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/)
 
-- [ ] Criar conta na Plataforma Heroku e Instalar Heroku CLI
+- [x] [Criar conta na Plataforma Heroku e Instalar Heroku CLI](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Criar%20conta%20na%20Plataforma%20Heroku%20e%20Instalar%20Heroku%20CLI/notes.md)
 - [ ] Config Dev/Prod com Deploy - ServiceRegistry Microservice
 - [ ] Config Dev/Prod com Deploy - Config Server Microservice Parte 1
 - [ ] Config Dev/Prod com Deploy - Config Server Microservice Parte 2
