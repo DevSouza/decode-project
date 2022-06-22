@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "42eb92c8-3db0-49d7-84ea-e488ac0748bb",
+		"name": "EAD-NOTIFICATION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET ALL NOTIFICATIONS By User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZTdjMDg4Ni1jOWY0LTRkZTgtOTg2MS04ODBjYzA4NzVjMDYiLCJyb2xlcyI6IlJPTEVfSU5TVFJVQ1RPUixST0xFX1NUVURFTlQiLCJpYXQiOjE2Mzg0NDAxMjcsImV4cCI6MTYzODQ1NDUyN30.FS9NDinh2qWf78bY85rhs6YSyUSxqe7nWh3Vq4t0Yonrfq3WVBO-_GxyOBZqH39dlJKXq5EVz2yQkpuUrPb2pw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ead-notification/users/0d19553b-e31f-4a70-93aa-e39d5b352987/notifications",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ead-notification",
+						"users",
+						"0d19553b-e31f-4a70-93aa-e39d5b352987",
+						"notifications"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT NOTIFICATION Confirm Read",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZTdjMDg4Ni1jOWY0LTRkZTgtOTg2MS04ODBjYzA4NzVjMDYiLCJyb2xlcyI6IlJPTEVfSU5TVFJVQ1RPUixST0xFX1NUVURFTlQiLCJpYXQiOjE2Mzg0NDAxMjcsImV4cCI6MTYzODQ1NDUyN30.FS9NDinh2qWf78bY85rhs6YSyUSxqe7nWh3Vq4t0Yonrfq3WVBO-_GxyOBZqH39dlJKXq5EVz2yQkpuUrPb2pw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"notificationStatus\": \"READ\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ead-notification/users/0d19553b-e31f-4a70-93aa-e39d5b352987/notifications/bc3c7078-b02c-4892-9dfd-90e05ee62845",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ead-notification",
+						"users",
+						"0d19553b-e31f-4a70-93aa-e39d5b352987",
+						"notifications",
+						"bc3c7078-b02c-4892-9dfd-90e05ee62845"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

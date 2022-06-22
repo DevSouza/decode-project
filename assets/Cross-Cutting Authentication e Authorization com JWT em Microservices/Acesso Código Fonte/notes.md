@@ -6,6 +6,6 @@ Observação: Os códigos versionados com as branchs divididas por módulos enco
 
 ### Materiais Complementares
 
-[notification](./notification.zip)  
-[authuser](./authuser.zip)  
-[course](./course.zip)  
+[notification.zip](./notification.zip)  
+[authuser.zip](./authuser.zip)  
+[course.zip](./course.zip)  
