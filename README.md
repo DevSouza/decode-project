@@ -205,7 +205,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] Generate JWT com Subject e Roles
 - [x] Access Token Pattern in Notification Microservice
 - [x] Access Token Pattern in Course Microservice
-- [ ] Access Token na Comunicação Síncrona entre Microservices
+- [x] Access Token na Comunicação Síncrona entre Microservices
 - [ ] Authorization Roles para Instructor
 - [ ] Acesso Código Fonte
 - [ ] Postman Collection
