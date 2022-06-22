@@ -199,14 +199,14 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Postman%20Collection/notes.md)
 
-### Cross-Cutting Authentication e Authorization com JWT em Microservices
+### [Cross-Cutting Authentication e Authorization com JWT em Microservices](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/)
 
 - [x] Authorization com Roles em Microservices
 - [x] Generate JWT com Subject e Roles
 - [x] Access Token Pattern in Notification Microservice
 - [x] Access Token Pattern in Course Microservice
 - [x] Access Token na Comunicação Síncrona entre Microservices
-- [ ] Authorization Roles para Instructor
+- [x] [Authorization Roles para Instructor](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Authorization%20Roles%20para%20Instructor/notes.md)
 - [ ] Acesso Código Fonte
 - [ ] Postman Collection
 
