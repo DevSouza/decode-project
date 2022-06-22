@@ -15,6 +15,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -44,6 +45,7 @@ public class ModuleController {
 	@Autowired
 	CourseService courseService;
 
+	@PreAuthorize("hasAnyRole('INSTRUCTOR')")
 	@PostMapping("/courses/{courseId}/modules")
 	public ResponseEntity<?> saveModule(@RequestBody @Valid ModuleDto moduleDto, @PathVariable("courseId") UUID courseId) {
 		log.debug("POST saveModule moduleDto received {} ", moduleDto.toString());
@@ -70,6 +72,7 @@ public class ModuleController {
 				.body(moduleModel);
 	}
 	
+	@PreAuthorize("hasAnyRole('INSTRUCTOR')")
 	@DeleteMapping("/courses/{courseId}/modules/{moduleId}")
 	public ResponseEntity<?> deleteModule(
 			@PathVariable("courseId") UUID courseId,
@@ -92,6 +95,7 @@ public class ModuleController {
 				.body("Module deleted successfully.");
 	}
 	
+	@PreAuthorize("hasAnyRole('INSTRUCTOR')")
 	@PutMapping("/courses/{courseId}/modules/{moduleId}")
 	public ResponseEntity<?> updateModule(
 			@RequestBody @Valid ModuleDto moduleDto,
@@ -120,6 +124,7 @@ public class ModuleController {
 				.body(moduleModel);
 	}
 	
+	@PreAuthorize("hasAnyRole('STUDENT')")
 	@GetMapping("/courses/{courseId}/modules")
 	public ResponseEntity<Page<ModuleModel>> getAllModules(
 			SpecificationTemplete.ModuleSpec spec,
@@ -131,6 +136,7 @@ public class ModuleController {
 				.body(moduleService.findAllByCourse(SpecificationTemplete.moduleCourseId(courseId).and(spec), pageable));
 	}
 	
+	@PreAuthorize("hasAnyRole('STUDENT')")
 	@GetMapping("/courses/{courseId}/modules/{moduleId}")
 	public ResponseEntity<?> getOneModule(
 			@PathVariable("courseId") UUID courseId,
