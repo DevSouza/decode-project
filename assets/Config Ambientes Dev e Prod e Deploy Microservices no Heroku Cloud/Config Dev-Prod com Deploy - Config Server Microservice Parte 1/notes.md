@@ -28,3 +28,6 @@
         git push heroku-prod master
     ```
     >>> Caso fique dando erro ao tentar dar push utilize a flag ```-f``` no final do comando.
+
+### Configurações extras
+Para que o config server funcione corretamente sera necessario criar uma variavel de ambiente chamada ```LANG``` com o seguinte valor ```en_US.UTF-8```
