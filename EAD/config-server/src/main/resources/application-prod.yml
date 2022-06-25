@@ -1,0 +1,22 @@
+server:
+  port: ${PORT}
+  
+spring:
+  cloud:    config:      server:        git:          uri: 'https://github.com/DevSouza/decoder-project.git'
+          search-paths: 'EAD/ead-config-server-repo'
+          default-label: master
+          username: ${GIT_USERNAME}
+          password: ${GIT_PASSWORD}
+    
+encrypt:
+  key: 'eThWmZq4t7w!z%C*F-J@NcRfUjXn2r5u8x/A?D(G+KbPdSgVkYp3s6v9y$B&E)H@'
+          
+ead:
+  configServer:
+    username: ${CONFIG_SERVER_USERNAME}
+    password: ${CONFIG_SERVER_PASSWORD}
+    
+eureka:  client:    service-url:      defaultZone: ${EUREKA_URL}
+  instance:    
+    hostname: ${APP_DOMAIN_NAME}
+    non-secure-port: 80

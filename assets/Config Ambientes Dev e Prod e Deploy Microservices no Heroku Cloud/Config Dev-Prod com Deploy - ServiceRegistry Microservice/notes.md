@@ -19,7 +19,7 @@
     heroku buildpacks:add -a ds-serviceregistry-prod heroku/java
     ```
     ```cmd
-        heroku buildpacks:add -a api-02092020 https://github.com/lstoll/heroku-buildpack-monorepo -i 1
+        heroku buildpacks:add -a ds-serviceregistry-prod https://github.com/lstoll/heroku-buildpack-monorepo -i 1
     ```
 4. E finalizar com o push.
     ```cmd

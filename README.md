@@ -214,7 +214,7 @@ Formação de Especialistas em Microservices Java com Spring
 
 - [x] [Criar conta na Plataforma Heroku e Instalar Heroku CLI](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Criar%20conta%20na%20Plataforma%20Heroku%20e%20Instalar%20Heroku%20CLI/notes.md)
 - [x] [Config Dev/Prod com Deploy - ServiceRegistry Microservice](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20ServiceRegistry%20Microservice/notes.md)
-- [ ] Config Dev/Prod com Deploy - Config Server Microservice Parte 1
+- [x] [Config Dev/Prod com Deploy - Config Server Microservice Parte 1](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Config%20Server%20Microservice%20Parte%201/notes.md)
 - [ ] Config Dev/Prod com Deploy - Config Server Microservice Parte 2
 - [ ] Config Dev/Prod com Deploy - AuthUser Microservice com DB PostgreSQL e RabbitMQ
 - [ ] Config Dev/Prod com Deploy - Course Microservice com DB PostgreSQL e RabbitMQ
