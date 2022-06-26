@@ -1,0 +1,3 @@
+spring:
+  config:
+    import: 'configserver:${CONFIG_SERVER_URL}' # 'optional:configserver:' para que quando o ms ead-config-server estiver fora do ar usar as configurações locais

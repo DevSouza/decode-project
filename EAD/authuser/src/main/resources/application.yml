@@ -1,8 +1,5 @@
 spring:
+  profiles:
+    active: prod
   application:
     name: ead-authuser-service
-  config:
-    import: 'configserver:' # 'optional:configserver:' para que quando o ms ead-config-server estiver fora do ar usar as configurações locais
-  cloud:    config:      discovery:        serviceId: ead-config-server
-      username: configserver
-      password: 'ead123cs'
