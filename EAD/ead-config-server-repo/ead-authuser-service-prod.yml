@@ -1,0 +1,60 @@
+server:
+  port: ${PORT}
+  servlet:
+    context-path: '/ead-authuser/'
+  forward-headers-strategy: framework # FIX Url Hateoas
+
+spring:
+  application:
+    name: ead-authuser-service
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      jdbc:
+        lob.non-contextual-creation: true
+    properties:
+      hibernate:
+        show_sql: true
+  rabbitmq:
+    addresses: ${CLOUDAMQP_URL}
+    
+ead:
+  api:
+    url:
+      course: 'http://ead-course-service/ead-course'
+  broker:
+    exchange:
+      userEvent: ead.userevent
+
+authuser:
+  refreshscope:
+    name: Andre Souza Dos Santos
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      circuitbreakerInstance:
+        slidingWindowSize: 30
+        permittedNumberOfCallsInHalfOpenState: 2
+        slidingWindowType: TIME_BASED
+        minimumNumberOfCalls: 2
+        waitDurationInOpenState: 30s
+        failureRateThreshold: 80
+  retry:
+    instances:
+      retryInstance:
+        max-attempts: 3
+        wait-duration: 5s

@@ -26,3 +26,14 @@
         git push heroku-prod master
     ```
     >>> Caso fique dando erro ao tentar dar push utilize a flag ```-f``` no final do comando.
+
+### Environments
+
+
+```
+    APP_BASE => EAD/service-registry
+    APP_DOMAIN_NAME => ds-serviceregistry-prod.herokuapp.com
+    EUREKA_USERNAME => sr123456
+    EUREKA_PASSWORD => sr123456
+    EUREKA_URL => https://sr123456:sr123456@ds-serviceregistry-prod.herokuapp.com/eureka
+```
