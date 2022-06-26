@@ -20,14 +20,23 @@
     ```cmd
         heroku buildpacks:add -a ds-authuser-prod heroku/java
     ```
+4. Configurar Monorepo.
     ```cmd
         heroku buildpacks:add -a ds-authuser-prod https://github.com/lstoll/heroku-buildpack-monorepo -i 1
     ```
-4. E finalizar com o push.
+5. Adicionar CloudAMQP 
+    ```cmd
+        heroku addons:create cloudamqp:lemur
+    ```
+6. E finalizar com o push.
     ```cmd
         git push heroku-prod master
     ```
     >>> Caso fique dando erro ao tentar dar push utilize a flag ```-f``` no final do comando.
+
+
+- Logar no postgres pelo terminal ```heroku pg:psql postgresql-encircled-65881 --app ds-authuser-prod```
+
 
 # Environments
 
