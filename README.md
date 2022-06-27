@@ -218,7 +218,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Config Dev/Prod com Deploy - Config Server Microservice Parte 2](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Config%20Server%20Microservice%20Parte%202/notes.md)
 - [x] [Config Dev/Prod com Deploy - AuthUser Microservice com DB PostgreSQL e RabbitMQ](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20AuthUser%20Microservice%20com%20DB%20PostgreSQL%20e%20RabbitMQ/notes.md)
 - [x] [Config Dev/Prod com Deploy - Course Microservice com DB PostgreSQL e RabbitMQ](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Course%20Microservice%20com%20DB%20PostgreSQL%20e%20RabbitMQ/notes.md)
-- [ ] Config Dev/Prod com Deploy - Notification Microservice com DB PostgreSQL e RabbitMQ
+- [x] [Config Dev/Prod com Deploy - Notification Microservice com DB PostgreSQL e RabbitMQ](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Notification%20Microservice%20com%20DB%20PostgreSQL%20e%20RabbitMQ/notes.md)
 - [ ] Config Dev/Prod com Deploy - API Gateway Microservice com Global Config
 - [ ] Fluxo Completo da Arquitetura de Microservices em Cloud
 - [ ] Acesso Código Fonte
