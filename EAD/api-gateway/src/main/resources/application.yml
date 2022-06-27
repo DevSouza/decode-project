@@ -1,36 +1,5 @@
-server:
-  port: 8080
-  
 spring:
+  profiles:
+    active: prod
   application:
     name: ead-api-gateway
-  cloud:
-    gateway:
-      routes:
-        - id: authuser-service
-          uri: lb://EAD-AUTHUSER-SERVICE
-          predicates:
-            - Path=/ead-authuser/**
-            
-        - id: course-service
-          uri: lb://EAD-COURSE-SERVICE
-          predicates:
-            - Path=/ead-course/**
-        
-        - id: notification-service
-          uri: lb://EAD-NOTIFICATION-SERVICE
-          predicates:
-          - Path=/ead-notification/**
-
-ead:
-  serviceRegistry:
-    username: serviceregistry
-    password: 'ead123sr'
-    
-eureka:
-  client:
-    service-url:
-      defaultZone: 'http://${ead.serviceRegistry.username}:${ead.serviceRegistry.password}@localhost:8761/eureka'
-  instance:
-    hostname: localhost
-            
