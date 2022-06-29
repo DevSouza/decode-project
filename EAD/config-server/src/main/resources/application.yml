@@ -1,1 +1,1 @@
-spring:  profiles:    active: prod  application:    name: ead-config-server
+spring:  profiles:    active: dev  application:    name: ead-config-server
