@@ -2,4 +2,4 @@ spring:
   profiles:
     active: dev
   application:
-    name: ead-api-gateway
+    name: ead-notification-service-hex

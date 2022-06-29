@@ -1,15 +1,15 @@
 server:
-  port: ${PORT}
+  port: 8085
   servlet:
-    context-path: '/ead-notification/'
+    context-path: '/ead-notification-hex/'
 
 spring:
   application:
-    name: ead-notification-service
+    name: ead-notification-service-hex
   datasource:
-    url:  ${JDBC_DATABASE_URL}
-    username: ${JDBC_DATABASE_USERNAME}
-    password: ${JDBC_DATABASE_PASSWORD}
+    url:  jdbc:postgresql://localhost:5432/ead-notification-hex
+    username: postgres
+    password: 3301
   jpa:
     hibernate:
       ddl-auto: update
@@ -19,8 +19,15 @@ spring:
     properties:
       hibernate:
         show_sql: true
+  output:
+    ansi:
+      enabled: Always
   rabbitmq:
-    addresses: ${CLOUDAMQP_URL}
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
+
 
 logging:
   level:

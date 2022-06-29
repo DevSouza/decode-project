@@ -224,9 +224,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Acesso Código Fonte](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 - [x] [Postman Collection](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Postman%20Collection/notes.md)
 
-### Arquitetura Hexagonal
+### [Arquitetura Hexagonal](./assets/Arquitetura%20Hexagonal/)
 
-- [ ] Arquitetura Hexagonal: Da Teoria à Prática
+- [x] [Arquitetura Hexagonal: Da Teoria à Prática](./assets/Arquitetura%20Hexagonal/Arquitetura%20Hexagonal%20Da%20Teoria%20%C3%A0%20Pr%C3%A1tica/notes.md)
 - [ ] Acesso Código Fonte
 
 ### Observability - Log Aggregation com Elastic Stack (ELK)
