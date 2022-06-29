@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "242acec7-2506-4733-ab29-7fa6cb33006b",
+		"name": "EAD-CONFIG-SERVER",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AUTHUSER Configs",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "6CA367E964D24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "configserverprod",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://<app-name>.herokuapp.com/ead-authuser-service/prod",
+					"protocol": "https",
+					"host": [
+						"<app-name>",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"ead-authuser-service",
+						"prod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "APPLICATION Global Configs",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "6CA367E964D24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "configserverprod",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://<app-name>.herokuapp.com/application/prod",
+					"protocol": "https",
+					"host": [
+						"<app-name>",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"application",
+						"prod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REFRESH ACTUATOR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/ead-authuser/actuator/refresh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"ead-authuser",
+						"actuator",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TEST REFRESHSCOPE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/ead-authuser/refreshscope",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"ead-authuser",
+						"refreshscope"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HEALTH ACTUATOR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8087/ead-authuser/actuator/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8087",
+					"path": [
+						"ead-authuser",
+						"actuator",
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "COURSE Configs",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "6CA367E964D24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "configserverprod",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://<app-name>.herokuapp.com/ead-course-service/dev",
+					"protocol": "https",
+					"host": [
+						"<app-name>",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"ead-course-service",
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NOTIFICATION Configs",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "6CA367E964D24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "configserverprod",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://<app-name>.herokuapp.com/ead-notification-service/dev",
+					"protocol": "https",
+					"host": [
+						"<app-name>",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"ead-notification-service",
+						"dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ENCRYPT",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "6CA367E964D24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "configserverprod",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "C*F-JaNcRfUjXn2r5u8x/A?D(G+KbPeSgVkYp3s6v9y$B&E)H@McQfTjWmZq4t7w"
+				},
+				"url": {
+					"raw": "https://<app-name>.herokuapp.com/encrypt",
+					"protocol": "https",
+					"host": [
+						"<app-name>",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"encrypt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DECRYPT",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "6CA367E964D24",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "configserverprod",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "9c10d38bbafafa3fd559560905d4e83ef7f53a9cfb48b7960a3f2142ca70d4dd"
+				},
+				"url": {
+					"raw": "https://<app-name>.herokuapp.com/decrypt",
+					"protocol": "https",
+					"host": [
+						"<app-name>",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"decrypt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
