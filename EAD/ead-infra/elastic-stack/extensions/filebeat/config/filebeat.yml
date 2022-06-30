@@ -1,0 +1,20 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /usr/share/filebeat/logs/*/*.log
+  json.keys_under_root: true
+  json.overwrite_keys: true
+  json.add_error_keys: true
+  json.expand_keys: true
+
+output.elasticsearch:
+  hosts: ['elasticsearch:9200']
+  username: elastic
+  password: changeme
+
+## HTTP endpoint for health checking
+## https://www.elastic.co/guide/en/beats/filebeat/current/http-endpoint.html
+#
+http.enabled: true
+http.host: 0.0.0.0

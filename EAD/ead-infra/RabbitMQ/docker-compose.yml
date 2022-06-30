@@ -1,0 +1,23 @@
+version: '3.9'
+
+networks:
+  rabbitmq-network:
+    driver: bridge
+
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    environment:
+      RABBIT_PORT: '5672'
+      RABBITMQ_DEFAULT_USER: 'admin'
+      RABBITMQ_DEFAULT_PASS: 'admin'
+    ports:
+      - 15672:15672
+      - 5672:5672
+    volumes:
+      - ./volumes/rabbitmq/data/:/var/lib/rabbitmq/
+      - ./volumes/rabbitmq/log/:/var/log/rabbitmq
+    networks:
+      - rabbitmq-network
+    restart: always
