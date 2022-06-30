@@ -229,9 +229,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Arquitetura Hexagonal: Da Teoria à Prática](./assets/Arquitetura%20Hexagonal/Arquitetura%20Hexagonal%20Da%20Teoria%20%C3%A0%20Pr%C3%A1tica/notes.md)
 - [x] [Acesso Código Fonte](./assets/Arquitetura%20Hexagonal/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
-### Observability - Log Aggregation com Elastic Stack (ELK)
+### [Observability - Log Aggregation com Elastic Stack (ELK)](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/)
 
-- [ ] Observability - Log Aggregation Pattern, Health Check API Pattern e Distributed Tracing Pattern
+- [x] [Observability - Log Aggregation Pattern, Health Check API Pattern e Distributed Tracing Pattern](assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Observability%20-%20Log%20Aggregation%20Pattern%2C%20Health%20Check%20API%20Pattern%20e%20Distributed%20Tracing%20Pattern/notes.md)
 - [ ] Elastic Stack - Elasticsearch, Logstash and Kibana (ELK)
 - [ ] Configurar Elastic Stack Cloud com Filebeat Local
 - [ ] Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 1
