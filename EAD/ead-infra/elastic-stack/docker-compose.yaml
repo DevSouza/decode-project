@@ -1,0 +1,106 @@
+version: '3.9'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.16.3
+    container_name: elasticsearch
+    configs:
+      - source: elastic_config
+        target: /usr/share/elasticsearch/config/elasticsearch.yml
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      ELASTIC_PASSWORD: changeme
+      discovery.type: single-node
+    labels:
+      co.elastic.logs/module: elasticsearch
+    ports:
+      - 9200:9200
+      - 9300:9300
+    networks:
+      - elastic
+    deploy:
+      mode: replicated
+      replicas: 1
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.16.3
+    container_name: logstash
+    ports:
+      - 5044:5044
+      - 5000:5000
+      - 9600:9600
+    configs:
+      - source: logstash_config
+        target: /usr/share/logstash/config/logstash.yml
+      - source: logstash_pipeline
+        target: /usr/share/logstash/pipeline/logstash.conf
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    depends_on:
+      - elasticsearch
+    networks:
+      - elastic
+    deploy:
+      mode: replicated
+      replicas: 1
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.16.3
+    container_name: kibana
+    configs:
+      - source: kibana_config
+        target: /usr/share/kibana/config/kibana.yml
+    labels:
+      co.elastic.logs/module: kibana
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+    networks:
+      - elastic
+    deploy:
+      mode: replicated
+      replicas: 1
+
+  # https://github.com/gnokoheat/elk-with-filebeat-by-docker-compose
+  # https://github.com/deviantony/docker-elk/tree/main/extensions/filebeat
+  # https://github.com/xeraa/elastic-docker/blob/master/elasticsearch_logs/filebeat.yml
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.16.3
+    container_name: filebeat
+    user: root
+    volumes:
+      - ./extensions/filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./../../ead-service-registry/logs:/usr/share/filebeat/logs/ead-service-registry
+      - ./../../ead-config-server/logs:/usr/share/filebeat/logs/ead-config-server
+      - ./../../ead-api-gateway/logs:/usr/share/filebeat/logs/ead-api-gateway
+      - ./../../ead-auth/logs:/usr/share/filebeat/logs/ead-auth
+      - ./../../ead-curso/logs:/usr/share/filebeat/logs/ead-curso
+      - ./../../ead-notificacao/logs:/usr/share/filebeat/logs/ead-notificacao
+      - ./../../ead-notificacao-hex/logs:/usr/share/filebeat/logs/ead-notificacao-hex
+    depends_on:
+      - elasticsearch
+      - kibana
+    command:
+      # Log to stderr.
+      - -e
+      # Disable config file permissions checks. Allows mounting
+      # 'config/filebeat.yml' even if it's not owned by root.
+      # see: https://www.elastic.co/guide/en/beats/libbeat/current/config-file-permissions.html
+      - --strict.perms=false
+    networks:
+      - elastic
+
+configs:
+  elastic_config:
+    file: ./elasticsearch/config/elasticsearch.yml
+  logstash_config:
+    file: ./logstash/config/logstash.yml
+  logstash_pipeline:
+    file: ./logstash/pipeline/logstash.conf
+  kibana_config:
+    file: ./kibana/config/kibana.yml
+
+networks:
+  elastic:
+    driver: bridge

@@ -8,8 +8,8 @@ spring:
     name: ead-notification-service-hex
   datasource:
     url:  jdbc:postgresql://localhost:5432/ead-notification-hex
-    username: postgres
-    password: 3301
+    username: admin
+    password: admin
   jpa:
     hibernate:
       ddl-auto: update
