@@ -227,7 +227,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Arquitetura Hexagonal](./assets/Arquitetura%20Hexagonal/)
 
 - [x] [Arquitetura Hexagonal: Da Teoria à Prática](./assets/Arquitetura%20Hexagonal/Arquitetura%20Hexagonal%20Da%20Teoria%20%C3%A0%20Pr%C3%A1tica/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Arquitetura%20Hexagonal/Acesso%20C%C3%B3digo%20Fonte/notes.md)
 
 ### Observability - Log Aggregation com Elastic Stack (ELK)
 
