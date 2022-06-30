@@ -232,7 +232,7 @@ Formação de Especialistas em Microservices Java com Spring
 ### [Observability - Log Aggregation com Elastic Stack (ELK)](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/)
 
 - [x] [Observability - Log Aggregation Pattern, Health Check API Pattern e Distributed Tracing Pattern](assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Observability%20-%20Log%20Aggregation%20Pattern%2C%20Health%20Check%20API%20Pattern%20e%20Distributed%20Tracing%20Pattern/notes.md)
-- [ ] Elastic Stack - Elasticsearch, Logstash and Kibana (ELK)
+- [x] Elastic Stack - Elasticsearch, Logstash and Kibana (ELK)
 - [ ] Configurar Elastic Stack Cloud com Filebeat Local
 - [ ] Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 1
 - [ ] Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 2
