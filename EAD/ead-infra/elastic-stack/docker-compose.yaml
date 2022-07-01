@@ -71,13 +71,13 @@ services:
     user: root
     volumes:
       - ./extensions/filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
-      - ./../../ead-service-registry/logs:/usr/share/filebeat/logs/ead-service-registry
-      - ./../../ead-config-server/logs:/usr/share/filebeat/logs/ead-config-server
-      - ./../../ead-api-gateway/logs:/usr/share/filebeat/logs/ead-api-gateway
-      - ./../../ead-auth/logs:/usr/share/filebeat/logs/ead-auth
-      - ./../../ead-curso/logs:/usr/share/filebeat/logs/ead-curso
-      - ./../../ead-notificacao/logs:/usr/share/filebeat/logs/ead-notificacao
-      - ./../../ead-notificacao-hex/logs:/usr/share/filebeat/logs/ead-notificacao-hex
+      - ./../../service-registry/logs:/usr/share/filebeat/logs/service-registry
+      - ./../../config-server/logs:/usr/share/filebeat/logs/config-server
+      - ./../../api-gateway/logs:/usr/share/filebeat/logs/api-gateway
+      - ./../../authuser/logs:/usr/share/filebeat/logs/authuser
+      - ./../../course/logs:/usr/share/filebeat/logs/course
+      - ./../../notification/logs:/usr/share/filebeat/logs/notifiction
+      - ./../../notification-hex/logs:/usr/share/filebeat/logs/notification-hex
     depends_on:
       - elasticsearch
       - kibana
