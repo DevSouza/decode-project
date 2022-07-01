@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.7</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ead</groupId>
 	<artifactId>authuser</artifactId>
@@ -22,16 +23,23 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
-				<exclusion>
-					<groupId>org.springfamework.boot</groupId>
-					<artifactId>spring-boot-starter-logging</artifactId>					
-				</exclusion>
-			</exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/co.elastic.logging/log4j2-ecs-layout -->
+		<dependency>
+		    <groupId>co.elastic.logging</groupId>
+		    <artifactId>log4j2-ecs-layout</artifactId>
+		    <version>1.2.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -56,12 +64,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/net.kaczmarzyk/specification-arg-resolver -->
 		<dependency>
-		    <groupId>net.kaczmarzyk</groupId>
-		    <artifactId>specification-arg-resolver</artifactId>
-		    <version>2.6.2</version>
+			<groupId>net.kaczmarzyk</groupId>
+			<artifactId>specification-arg-resolver</artifactId>
+			<version>2.6.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -71,7 +79,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-amqp</artifactId>
@@ -97,22 +105,22 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
 		<dependency>
-		    <groupId>io.jsonwebtoken</groupId>
-		    <artifactId>jjwt</artifactId>
-		    <version>0.9.1</version>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
 		<dependency>
-		    <groupId>org.glassfish.jaxb</groupId>
-		    <artifactId>jaxb-runtime</artifactId>
-		    <version>3.0.2</version>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>3.0.2</version>
 		</dependency>
-		
-		
+
+
 	</dependencies>
 
 	<build>
