@@ -237,7 +237,7 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 1](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Log%20Aggregation%20Pattern%20-%20Microservices%20com%20Log4j2%20no%20Padrão%20ECS%20Parte%201/notes.md)
 - [x] Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 2
 - [x] [Criar Dashboard Personalisado no Kibana e Analisar Métricas de Logs](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Criar%20Dashboard%20Personalisado%20no%20Kibana%20e%20Analisar%20Métricas%20de%20Logs/notes.md)
-- [ ] Acesso Código Fonte
+- [x] [Acesso Código Fonte](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Acesso%20Código%20Fonte/notes.md)
 
 ### Considerações Finais
 
