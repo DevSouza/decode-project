@@ -239,9 +239,9 @@ Formação de Especialistas em Microservices Java com Spring
 - [x] [Criar Dashboard Personalisado no Kibana e Analisar Métricas de Logs](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Criar%20Dashboard%20Personalisado%20no%20Kibana%20e%20Analisar%20Métricas%20de%20Logs/notes.md)
 - [x] [Acesso Código Fonte](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Acesso%20Código%20Fonte/notes.md)
 
-### Considerações Finais
+### [Considerações Finais](./assets/Considera%C3%A7%C3%B5es%20Finais/)
 
-- [ ] Overview Projeto Decoder: Especialista em Microservices com Spring
+- [x] [Overview Projeto Decoder: Especialista em Microservices com Spring](./assets/Considera%C3%A7%C3%B5es%20Finais/Overview%20Projeto%20Decoder%20-%20Especialista%20em%20Microservices%20com%20Spring/notes.md)
 
 ### Decoder Week [Evento Extra]
 
