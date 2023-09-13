@@ -1,5 +1,5 @@
 # decoder-project
-Formação de Especialistas em Microservices Java com Spring
+Formação de Especialistas em Microservices Java com Spring ministrado por Michelli Brito
 
 ## Aulas 
 
@@ -146,101 +146,95 @@ Formação de Especialistas em Microservices Java com Spring
 ### Reliability - Circuit Breaker Pattern
 
 - [x] Conceitos de Circuit Breaker Pattern e Spring Cloud Circuit Breaker
-- [x] [Implementar Retry Resilience4j e Configurar Timeout](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Implementar%20Retry%20Resilience4j%20e%20Configurar%20Timeout/notes.md)
-- [x] [Implementar Circuit Breaker Resilience4j](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Implementar%20Circuit%20Breaker%20Resilience4j/notes.md)
-- [x] [Acesso Código Fonte](./assets/Reliability%20-%20Circuit%20Breaker%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
+- [x] Implementar Retry Resilience4j e Configurar Timeout
+- [x] Implementar Circuit Breaker Resilience4j
+- [x] Acesso Código Fonte
 
-### [Cross Cutting - Global Config Management Pattern](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/)
+### Cross Cutting - Global Config Management Pattern
 
-- [x] [Conceitos Global Config Pattern e Spring Cloud Config](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Conceitos%20Global%20Config%20Pattern%20e%20Spring%20Cloud%20Config/notes.md)
-- [x] [Criar Config Server Com Spring Cloud Config e repositório Git](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Criar%20Config%20Server%20Com%20Spring%20Cloud%20Config%20e%20reposit%C3%B3rio%20Git/notes.md)
+- [x] Conceitos Global Config Pattern e Spring Cloud Config
+- [x] Criar Config Server Com Spring Cloud Config e repositório Git
 - [x] Configurar Config Client em Authuser Microservice
 - [x] Atualizar Propriedades em Tempo de Execução com @RefreshScope e Spring Actuator
 - [x] Configurar Config Client em Course Microservice
-- [x] [Acesso Código Fonte](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [x] [Postman Collection](./assets/Cross%20Cutting%20-%20Global%20Config%20Management%20Pattern/Postman%20Collection/notes.md)
+- [x] Acesso Código Fonte
+- [x] Postman Collection
 
-### [Asynchronous Communication via Command Messages](./assets/Asynchronous%20Communication%20via%20Command%20Messages/)
+### Asynchronous Communication via Command Messages
 
-- [x] [Preparar Asynchronous Communication via Commands em Notification Microservice](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Preparar%20Asynchronous%20Communication%20via%20Commands%20em%20Notification%20Microservice/notes.md)
+- [x] Preparar Asynchronous Communication via Commands em Notification Microservice
 - [x] Criar Exchange Topic, definir Queue e Bindings
 - [x] Criar Publisher Command Message
 - [x] Criar Endpoints para visualizar e atualizar Notifications
-- [x] [Preparar ConfigServer e novas rotas no Gateway para Notification Microservice](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Preparar%20ConfigServer%20e%20novas%20rotas%20no%20Gateway%20para%20Notification%20Microservice/notes.md)
-- [x] [Acesso Código Fonte](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [x] [Postman Collection](./assets/Asynchronous%20Communication%20via%20Command%20Messages/Postman%20Collection/notes.md)
+- [x] Preparar ConfigServer e novas rotas no Gateway para Notification Microservice
+- [x] Acesso Código Fonte
+- [x] Postman Collection
 
-### [Basic Authentication em Service Registry e Config Server](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/)
+### Basic Authentication em Service Registry e Config Server
 
-- [x] [Implementar Basic Authentication no Service Registry](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/Implementar%20Basic%20Authentication%20no%20Service%20Registry/notes.md)
+- [x] Implementar Basic Authentication no Service Registry
 - [x] Registrar Microservices no Service Registry com Autenticação
 - [x] Implementar Basic Authentication no Config Server
-- [x] [Acesso Código Fonte](./assets/Basic%20Authentication%20em%20Service%20Registry%20e%20Config%20Server/Acesso%20C%C3%B3digo%20Fonte/notes.md)
+- [x] Acesso Código Fonte
 
-### [Authentication e Authorization com Basic Authentication](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/)
+### Authentication e Authorization com Basic Authentication
 
-- [x] [Conceitos e Fluxo do Spring Security para Basic Authentication](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Conceitos%20e%20Fluxo%20do%20Spring%20Security%20para%20Basic%20Authentication/notes.md)
-- [x] [Basic Authentication em AuthUser com Roles](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Basic%20Authentication%20em%20AuthUser%20com%20Roles/notes.md)
+- [x] Conceitos e Fluxo do Spring Security para Basic Authentication
+- [x] Basic Authentication em AuthUser com Roles
 - [x] Users Roles com Encoder Password em AuthUser
-- [x] [Implementar UserDetails e UserDetailsService para Basic Auth com Database](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Implementar%20UserDetails%20e%20UserDetailsService%20para%20Basic%20Auth%20com%20Database/notes.md)
-- [x] [Acesso Código Fonte](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [x] [Postman Collection](./assets/Authentication%20e%20Authorization%20com%20Basic%20Authentication/Postman%20Collection/notes.md)
+- [x] Implementar UserDetails e UserDetailsService para Basic Auth com Database
+- [x] Acesso Código Fonte
+- [x] Postman Collection
 
-### [Authentication e Authorization com Json Web Token (JWT)](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/)
+### Authentication e Authorization com Json Web Token (JWT)
 
-- [x] [Conceitos e Estrutura do JWT (Json Web Token)](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Conceitos%20e%20Estrutura%20do%20JWT%20(Json%20Web%20Token)/notes.md)
-- [x] [Conceitos e Fluxos do Spring Security com JWT](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Conceitos%20e%20Fluxos%20do%20Spring%20Security%20com%20JWT/notes.md)
-- [x] [Implementar JwtProvider para Gerar Tokens e Authentication Endpoint](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Implementar%20JwtProvider%20para%20Gerar%20Tokens%20e%20Authentication%20Endpoint/notes.md)
-- [x] [Implementar Validation Tokens e Authorization com JWT](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Implementar%20Validation%20Tokens%20e%20Authorization%20com%20JWT/notes.md)
-- [x] [Acesso Código Fonte](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [x] [Postman Collection](./assets/Authentication%20e%20Authorization%20com%20Json%20Web%20Token%20(JWT)/Postman%20Collection/notes.md)
+- [x] Conceitos e Estrutura do JWT (Json Web Token)
+- [x] Conceitos e Fluxos do Spring Security com JWT
+- [x] Implementar JwtProvider para Gerar Tokens e Authentication Endpoint
+- [x] Implementar Validation Tokens e Authorization com JWT
+- [x] Acesso Código Fonte
+- [x] Postman Collection
 
-### [Cross-Cutting Authentication e Authorization com JWT em Microservices](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/)
+### Cross-Cutting Authentication e Authorization com JWT em Microservices
 
 - [x] Authorization com Roles em Microservices
 - [x] Generate JWT com Subject e Roles
 - [x] Access Token Pattern in Notification Microservice
 - [x] Access Token Pattern in Course Microservice
 - [x] Access Token na Comunicação Síncrona entre Microservices
-- [x] [Authorization Roles para Instructor](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Authorization%20Roles%20para%20Instructor/notes.md)
-- [x] [Acesso Código Fonte](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [x] [Postman Collection](./assets/Cross-Cutting%20Authentication%20e%20Authorization%20com%20JWT%20em%20Microservices/Postman%20Collection/notes.md)
+- [x] Authorization Roles para Instructor
+- [x] Acesso Código Fonte
+- [x] Postman Collection
 
-### [Config Ambientes Dev e Prod e Deploy Microservices no Heroku Cloud](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/)
+### Config Ambientes Dev e Prod e Deploy Microservices no Heroku Cloud
 
-- [x] [Criar conta na Plataforma Heroku e Instalar Heroku CLI](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Criar%20conta%20na%20Plataforma%20Heroku%20e%20Instalar%20Heroku%20CLI/notes.md)
-- [x] [Config Dev/Prod com Deploy - ServiceRegistry Microservice](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20ServiceRegistry%20Microservice/notes.md)
-- [x] [Config Dev/Prod com Deploy - Config Server Microservice Parte 1](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Config%20Server%20Microservice%20Parte%201/notes.md)
-- [x] [Config Dev/Prod com Deploy - Config Server Microservice Parte 2](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Config%20Server%20Microservice%20Parte%202/notes.md)
-- [x] [Config Dev/Prod com Deploy - AuthUser Microservice com DB PostgreSQL e RabbitMQ](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20AuthUser%20Microservice%20com%20DB%20PostgreSQL%20e%20RabbitMQ/notes.md)
-- [x] [Config Dev/Prod com Deploy - Course Microservice com DB PostgreSQL e RabbitMQ](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Course%20Microservice%20com%20DB%20PostgreSQL%20e%20RabbitMQ/notes.md)
-- [x] [Config Dev/Prod com Deploy - Notification Microservice com DB PostgreSQL e RabbitMQ](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20Notification%20Microservice%20com%20DB%20PostgreSQL%20e%20RabbitMQ/notes.md)
-- [x] [Config Dev/Prod com Deploy - API Gateway Microservice com Global Config](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Config%20Dev-Prod%20com%20Deploy%20-%20API%20Gateway%20Microservice%20com%20Global%20Config/notes.md)
-- [x] [Fluxo Completo da Arquitetura de Microservices em Cloud](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Fluxo%20Completo%20da%20Arquitetura%20de%20Microservices%20em%20Cloud/notes.md)
-- [x] [Acesso Código Fonte](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Acesso%20C%C3%B3digo%20Fonte/notes.md)
-- [x] [Postman Collection](./assets/Config%20Ambientes%20Dev%20e%20Prod%20e%20Deploy%20Microservices%20no%20Heroku%20Cloud/Postman%20Collection/notes.md)
+- [x] Criar conta na Plataforma Heroku e Instalar Heroku CLI
+- [x] Config Dev/Prod com Deploy - ServiceRegistry Microservice
+- [x] Config Dev/Prod com Deploy - Config Server Microservice Parte 1
+- [x] Config Dev/Prod com Deploy - Config Server Microservice Parte 2
+- [x] Config Dev/Prod com Deploy - AuthUser Microservice com DB PostgreSQL e RabbitMQ
+- [x] Config Dev/Prod com Deploy - Course Microservice com DB PostgreSQL e RabbitMQ
+- [x] Config Dev/Prod com Deploy - Notification Microservice com DB PostgreSQL e RabbitMQ
+- [x] Config Dev/Prod com Deploy - API Gateway Microservice com Global Config
+- [x] Fluxo Completo da Arquitetura de Microservices em Cloud
+- [x] Acesso Código Fonte
+- [x] Postman Collection
 
-### [Arquitetura Hexagonal](./assets/Arquitetura%20Hexagonal/)
+### Arquitetura Hexagonal
 
-- [x] [Arquitetura Hexagonal: Da Teoria à Prática](./assets/Arquitetura%20Hexagonal/Arquitetura%20Hexagonal%20Da%20Teoria%20%C3%A0%20Pr%C3%A1tica/notes.md)
-- [x] [Acesso Código Fonte](./assets/Arquitetura%20Hexagonal/Acesso%20C%C3%B3digo%20Fonte/notes.md)
+- [x] Arquitetura Hexagonal: Da Teoria à Prática
+- [x] Acesso Código Fonte
 
-### [Observability - Log Aggregation com Elastic Stack (ELK)](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/)
+### Observability - Log Aggregation com Elastic Stack (ELK)
 
-- [x] [Observability - Log Aggregation Pattern, Health Check API Pattern e Distributed Tracing Pattern](assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Observability%20-%20Log%20Aggregation%20Pattern%2C%20Health%20Check%20API%20Pattern%20e%20Distributed%20Tracing%20Pattern/notes.md)
-- [x] [Elastic Stack - Elasticsearch, Logstash and Kibana (ELK)](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Elastic%20Stack%20-%20Elasticsearch%2C%20Logstash%20and%20Kibana%20(ELK)/notes.md)
-- [x] [Configurar Elastic Stack Cloud com Filebeat Local](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Configurar%20Elastic%20Stack%20Cloud%20com%20Filebeat%20Local/notes.md)
-- [x] [Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 1](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Log%20Aggregation%20Pattern%20-%20Microservices%20com%20Log4j2%20no%20Padrão%20ECS%20Parte%201/notes.md)
+- [x] Observability - Log Aggregation Pattern, Health Check API Pattern e Distributed Tracing Pattern
+- [x] Elastic Stack - Elasticsearch, Logstash and Kibana (ELK)
+- [x] Configurar Elastic Stack Cloud com Filebeat Local
+- [x] Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 1
 - [x] Log Aggregation Pattern - Microservices com Log4j2 no Padrão ECS Parte 2
-- [x] [Criar Dashboard Personalisado no Kibana e Analisar Métricas de Logs](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Criar%20Dashboard%20Personalisado%20no%20Kibana%20e%20Analisar%20Métricas%20de%20Logs/notes.md)
-- [x] [Acesso Código Fonte](./assets/Observability%20-%20Log%20Aggregation%20com%20Elastic%20Stack%20(ELK)/Acesso%20Código%20Fonte/notes.md)
+- [x] Criar Dashboard Personalisado no Kibana e Analisar Métricas de Logs
+- [x] Acesso Código Fonte
 
-### [Considerações Finais](./assets/Considera%C3%A7%C3%B5es%20Finais/)
+### Considerações Finais
 
-- [x] [Overview Projeto Decoder: Especialista em Microservices com Spring](./assets/Considera%C3%A7%C3%B5es%20Finais/Overview%20Projeto%20Decoder%20-%20Especialista%20em%20Microservices%20com%20Spring/notes.md)
-
-### Decoder Week [Evento Extra]
-
-- [ ] [Dia 1] Modelagem Arquitetura de Microservices
-- [ ] [Dia 2] Modelos de Comunicações entre Microservices
-- [ ] [Dia 3] Microservices Patterns e suas Aplicabilidades
+- [x] Overview Projeto Decoder: Especialista em Microservices com Spring
